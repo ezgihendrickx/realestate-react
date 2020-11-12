@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Carousel from "./Carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import "./tailwind.css";
 import "./index.css";
 import App from "./App";

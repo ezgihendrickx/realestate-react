@@ -79,17 +79,22 @@ function Navbar() {
             </div>
           </div>
           <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            {/* Heroicon name: bell  */}
+
+            <img
+              src="/english.png"
+              width="40px"
+              height="40px"
+              alt="language"
+            ></img>
+
             <button
-              class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+              className="border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
               aria-label="Notifications"
             >
-              {/* Heroicon name: bell  */}
-              <img
-                src="/english.png"
-                width="40px"
-                height="40px"
-                alt="language"
-              ></img>
+              <i className="text-5xl fa p-1 ">
+                <big>&#xf107;</big>
+              </i>
             </button>
             {/* Profile dropdown */}
             <div class="ml-3 relative">
@@ -100,7 +105,7 @@ function Navbar() {
                   aria-label="User menu"
                   aria-haspopup="true"
                 >
-                  <img src="./ella.png" width="50px" height="50px" alt="user" />
+                  {/* <img src="./ella.png" width="50px" height="50px" alt="user" /> */}
                 </button>
               </div>
 
@@ -145,25 +150,25 @@ function Navbar() {
             href="#"
             class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
           >
-            Dashboard
+            Home
           </button>
           <button
             href="#"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
           >
-            Team
+            Houses
           </button>
           <button
             href="#"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
           >
-            Projects
+            About Us
           </button>
           <button
             href="#"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
           >
-            Calendar
+            Contact
           </button>
         </div>
       </div>
