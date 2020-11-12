@@ -47,7 +47,7 @@ function Navbar() {
               <img src="/logo1.png" alt="logomuz" width="50px" height="50px" />
             </div>
             <div class=" ml-4 px-3 py-2 text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
-              <code>Antalya Real Estate</code>
+              <code>Antalya Dream Homes</code>
             </div>
             <div class="hidden sm:block sm:ml-6">
               <div class="flex">
