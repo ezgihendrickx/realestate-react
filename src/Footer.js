@@ -22,9 +22,9 @@ function Footer() {
           </div>
           <div className="md:mt-0 inline order-first md:order-1">
             <p className="text-center text-xs md:text-base leading-6 text-gray-400">
-              <a className="mx-10 mr-64 hidden md:inline" href="../index.html">
-                <i className="text-5xl fa">
-                  <big>&#xf095;</big>
+              <a className="mx-10 mr-64 hidden md:inline" href="../contact.js">
+                <i className="text-5xl  fa">
+                  <big>&#xf095; +32 491 88 83 99</big>
                 </i>
               </a>
               &copy; 2020 The Antalyadreamhomes, Inc. All rights reserved.

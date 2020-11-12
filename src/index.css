@@ -4,4 +4,25 @@
   border: 1px solid #eee;
   box-shadow: 0 2px 2px #ccc;
   padding: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#noncopy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.fotos {
+  margin: 10px;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.1);
 }
