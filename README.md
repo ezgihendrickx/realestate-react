@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+<h2 align="center"><b>Antalya Dreamhomes</b></h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://reactjs.org/" target="_blank">
+    <img alt="Badge ReactJS" src="https://img.shields.io/badge/REACT-yellow?style=flat&logo=react" />
+  </a>
+  <a href="https://nodejs.org/en/" target="_blank">
+    <img alt="Badge Node.js" src="https://img.shields.io/badge/NODE-green?style=flat&logo=node.js" />
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img alt="Badge Tailwindcss" src="https://img.shields.io/badge/TAILWIND-blue?style=flat&logo=tailwind-css" />
+  </a>
+</p>
 
-## Available Scripts
+<h2 align="center">
+  <a href="https://antalyahomes.netlify.app/" target="_blank">🌐 Live</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+</h2>
+<br/>
+# Description 💡
+> AntalyaDreamHomes is my first real estate project. It is a real project for my father who will run this business soon.
 
-In the project directory, you can run:
+# Project Documents
 
-### `npm start`
+- [Kanban & User Stories](https://www.notion.so/fd13fe3e40ba4d9795dec8ae5d2a4751?v=2ad9dc8683374538b5ce5fd6fbfcaf9d)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Built with 🛠
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[![VSCODE](https://img.shields.io/badge/VSCODE-black?style=flat&logo=visual-studio-code)](https://code.visualstudio.com/)
+[![MARKDOWN](https://img.shields.io/badge/MARKDOWN-black?style=flat&logo=markdown)](https://www.markdownguide.org/)
+[![REACT](https://img.shields.io/badge/REACT-yellow?style=flat&logo=react)](https://reactjs.org/)
+[![NODE](https://img.shields.io/badge/NODE-green?style=flat&logo=node.js)](https://nodejs.org/en/)
+[![TAILWIND](https://img.shields.io/badge/TAILWIND-blue?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
 
-### `npm test`
+# License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright © 2020 [Ezgi](https://github.com/ezgihendrickx/) <br />
+This project is [MIT](https://github.com/ezgihendrickx/realestate-react/blob/main/LICENSE) licensed.
