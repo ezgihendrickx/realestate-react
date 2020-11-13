@@ -16,7 +16,7 @@ function Card(props) {
       <div className="underline cursor-pointer leading-relaxed text-center text-lg hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
         Konyaalti Beach
       </div>
-      <div className="ml-10 pl-10 text-2xl box-border  md:box-content h-32 w-64 p-4 rounded-lg bg-white border-2 border-gray-600">
+      <div className="text-base sm:text-xs md:text-xl lg:text-2xl  ml-10 pl-10  box-border  md:box-content h-32 w-64 p-4 rounded-lg bg-white border-2 border-gray-600">
         <h2>Price: 50.000 $ </h2>
         <h2>Adress: Altinkum mah. 416 sok. 17/7 D:6 </h2>
         <h2>
