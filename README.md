@@ -13,7 +13,7 @@
 </p>
 
 <h2 align="center">
-  <a href="https://antalyahomes.netlify.app/" target="_blank">🌐 Live</a>
+  <a href="https://determined-saha-7731a1.netlify.app/" target="_blank">🌐 Live</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 </h2>
 <br/>
