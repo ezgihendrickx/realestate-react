@@ -104,9 +104,7 @@ function Navbar() {
                   id="user-menu"
                   aria-label="User menu"
                   aria-haspopup="true"
-                >
-                  {/* <img src="./ella.png" width="50px" height="50px" alt="user" /> */}
-                </button>
+                ></button>
               </div>
 
               <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
@@ -132,7 +130,7 @@ function Navbar() {
                   </button>
                   <button
                     href="#"
-                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
+                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
                     русский

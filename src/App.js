@@ -1,5 +1,5 @@
 import React from "react";
-// import { Route, Switch } from "react-router-dom";
+// import { Link, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Car from "./Carousel";
 import Footer from "./Footer";
@@ -11,6 +11,7 @@ function App() {
       <button href="#" class="sr-only focus:not-sr-only">
         Skip to content
       </button>
+
       <Navbar />
       <Car />
       <Main />
