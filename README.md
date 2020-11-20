@@ -4,8 +4,7 @@
   <a href="https://reactjs.org/" target="_blank">
     <img alt="Badge ReactJS" src="https://img.shields.io/badge/REACT-yellow?style=flat&logo=react" />
   </a>
-  <a href="https://nodejs.org/en/" target="_blank">
-    <img alt="Badge Node.js" src="https://img.shields.io/badge/NODE-green?style=flat&logo=node.js" />
+ 
   </a>
   <a href="https://tailwindcss.com/" target="_blank">
     <img alt="Badge Tailwindcss" src="https://img.shields.io/badge/TAILWIND-blue?style=flat&logo=tailwind-css" />
@@ -27,10 +26,10 @@
 
 # Built with 🛠
 
-[![VSCODE](https://img.shields.io/badge/VSCODE-black?style=flat&logo=visual-studio-code)](https://code.visualstudio.com/)
+[![VSCODE](https://img.shields.io/badge/VSCODE-blue?style=flat&logo=visual-studio-code)](https://code.visualstudio.com/)
 [![MARKDOWN](https://img.shields.io/badge/MARKDOWN-black?style=flat&logo=markdown)](https://www.markdownguide.org/)
 [![REACT](https://img.shields.io/badge/REACT-yellow?style=flat&logo=react)](https://reactjs.org/)
-[![NODE](https://img.shields.io/badge/NODE-green?style=flat&logo=node.js)](https://nodejs.org/en/)
+
 [![TAILWIND](https://img.shields.io/badge/TAILWIND-blue?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
 
 # License
