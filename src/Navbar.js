@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav class="bg-gray-800">
@@ -52,24 +53,28 @@ function Navbar() {
             <div class="hidden sm:block sm:ml-6">
               <div class="flex">
                 <button
+                  to={"/home"}
                   href="#"
                   class="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Home
                 </button>
                 <button
+                  to={"/houses"}
                   href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Houses
                 </button>
                 <button
+                  to={"/aboutus"}
                   href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   About Us
                 </button>
                 <button
+                  to={"/contact"}
                   href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
@@ -114,6 +119,18 @@ function Navbar() {
                   aria-orientation="vertical"
                   aria-labelledby="user-menu"
                 >
+                  <button
+                    href="#"
+                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
+                    role="menuitem"
+                  ></button>
+                  <button
+                    href="#"
+                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
+                    role="menuitem"
+                  >
+                    Türkçe
+                  </button>
                   <button
                     href="#"
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"

@@ -1,10 +1,7 @@
 import React from "react";
 // import { Route } from "react-router-dom/Route";
 import Navbar from "./Navbar";
-import Car from "./Carousel";
-import Footer from "./Footer";
-import Main from "./Main";
-import Aboutus from "./Aboutus";
+
 // import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -25,12 +22,6 @@ function App() {
       <Navbar />
       {/* <Switch>
         <Route path="/Navbar" component={Navbar} /> */}
-      <Car />
-      {/* <Route path="/Car" exact component={Car} />
-      </Switch> */}
-      <Main />
-      <Aboutus />
-      <Footer />
     </div>
     // </Router>
   );
