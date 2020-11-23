@@ -23,6 +23,21 @@
   margin: 10px;
   transition: all 1s;
 }
-img:hover {
+.fotos:hover {
   transform: scale(1.1);
+}
+/* img:hover {
+  transform: scale(1.1); bu butun fotograflara efekt veriyor.
+} */
+.breakline {
+  height: 1px;
+  width: 1010px;
+  background-color: darkgray;
+}
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5 {
+  width: 26rem;
 }
