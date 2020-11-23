@@ -4,9 +4,27 @@ import { Carousel } from "react-responsive-carousel";
 
 function Car() {
   return (
-    <div className="max-w-md mx-auto sm:justify-center md:justify-self-end">
+    <div className="grid grid-cols-2 gap-2  mx-auto md:justify-self-end">
+      <div class="bg-gray-50">
+        <div class=" mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+          <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <span class="block">Ready to make your dream home come true?</span>
+            <span class="block text-indigo-600">Start your journey today.</span>
+          </h2>
+        </div>
+        <div class="mt-8 ml-10 lg:mt-0 lg:flex-shrink-0">
+          <div class="inline-flex  rounded-md shadow">
+            <button
+              href="#"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+            >
+              Houses
+            </button>
+          </div>
+        </div>
+      </div>
       <Carousel autoPlay className="pt-5 " width="40rem" height="40rem">
-        <div className="">
+        <div className>
           <img src="/img/Chimera.JPG" alt="Olympos" />
           <a
             className="legend underline  "
