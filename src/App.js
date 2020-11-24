@@ -5,6 +5,7 @@ import Car from "./Carousel";
 import Footer from "./Footer";
 import Main from "./Main";
 import Aboutus from "./Aboutus";
+import Contact from "./Contact";
 // import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       </Switch> */}
       <Main />
       <Aboutus />
+      <Contact />
       <Footer />
     </div>
     // </Router>
