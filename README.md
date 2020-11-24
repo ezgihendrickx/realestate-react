@@ -12,19 +12,22 @@
 </p>
 
 <h2 align="center">
-  <a href="https://determined-saha-7731a1.netlify.app/" target="_blank">🌐 Live</a>
+  <a href="https://determined-saha-7731a1.netlify.app/" target="_blank">:globe_with_meridians: Live</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 </h2>
 <br/>
-# Description 💡
+
+# Description :point_down:
 
 > AntalyaDreamHomes is my first real estate project. It is a real project for my father who will run this business soon.
 
-# Project Documents
+# Project Documents :snowflake:
 
 - [Kanban & User Stories](https://www.notion.so/fd13fe3e40ba4d9795dec8ae5d2a4751?v=2ad9dc8683374538b5ce5fd6fbfcaf9d)
 
-# Built with 🛠
+# Built with :cactus:
+
+:octocat:
 
 [![VSCODE](https://img.shields.io/badge/VSCODE-blue?style=flat&logo=visual-studio-code)](https://code.visualstudio.com/)
 [![MARKDOWN](https://img.shields.io/badge/MARKDOWN-black?style=flat&logo=markdown)](https://www.markdownguide.org/)
@@ -32,7 +35,7 @@
 
 [![TAILWIND](https://img.shields.io/badge/TAILWIND-blue?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
 
-# License
+# License :ear_of_rice:
 
 Copyright © 2020 [Ezgi](https://github.com/ezgihendrickx/) <br />
 This project is [MIT](https://github.com/ezgihendrickx/realestate-react/blob/main/LICENSE) licensed.
