@@ -56,7 +56,7 @@ function Contact() {
           />
           <label for="province">Province</label>
           <select id="province" name="province">
-            <option value="Antalya Centrum">Antalya Centrum</option>
+            <option value="Antalya Centrum">Antalya Center</option>
             <option value="Alanya">Alanya</option>
             <option value="Kemer">Kemer</option>
             <option value="Kalkan">Kalkan</option>

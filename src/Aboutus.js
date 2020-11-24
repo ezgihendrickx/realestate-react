@@ -1,6 +1,4 @@
 import React from "react";
-// import { Route } from "react-router-dom/Route";
-// import { BrowserRouter as Router } from "react-router-dom";
 
 function Aboutus() {
   return (

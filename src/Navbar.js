@@ -1,5 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav class="bg-gray-800">
@@ -45,41 +46,50 @@ function Navbar() {
           </div>
           <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex-shrink-0">
-              <img src="/logo1.png" alt="logomuz" width="50px" height="50px" />
+              <Link to="/">
+                <img
+                  src="/logo1.png"
+                  alt="our logo"
+                  width="50px"
+                  height="50px"
+                />
+              </Link>
             </div>
             <div class=" ml-4 px-3 py-2 text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
-              <code>Antalya Dream Homes</code>
+              <Link to="/">
+                <code>Antalya Dream Homes</code>
+              </Link>
             </div>
             <div class="hidden sm:block sm:ml-6">
               <div class="flex">
-                <button
-                  to={"/home"}
+                <Link
+                  to="/"
                   href="#"
                   class="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Home
-                </button>
-                <button
-                  to={"/houses"}
+                </Link>
+                <Link
+                  to="/houses"
                   href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Houses
-                </button>
-                <button
-                  to={"/aboutus"}
+                </Link>
+                <Link
+                  to="/about"
                   href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   About Us
-                </button>
-                <button
-                  to={"/contact"}
+                </Link>
+                <Link
+                  to="/contact"
                   href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Contact
-                </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import { Link } from "react-router-dom";
 
 function Car() {
   return (
@@ -14,12 +15,13 @@ function Car() {
         </div>
         <div class="mt-8 ml-10 lg:mt-0 lg:flex-shrink-0">
           <div class="inline-flex  rounded-md shadow">
-            <button
+            <Link
+              to="/houses"
               href="#"
               class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
             >
               Houses
-            </button>
+            </Link>
           </div>
         </div>
       </div>
