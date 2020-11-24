@@ -2,7 +2,7 @@ import React from "react";
 
 import Home from "./Home";
 import Navbar from "./Navbar";
-import Car from "./Carousel";
+// import Car from "./Carousel";
 // import Card from "./Card";
 import Footer from "./Footer";
 import Main from "./Main";
