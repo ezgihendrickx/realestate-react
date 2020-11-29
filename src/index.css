@@ -54,6 +54,8 @@ textarea {
   resize: vertical;
 }
 .container {
+  max-width: 40rem;
+  width: 90%;
   box-sizing: border-box;
   border-radius: 5px;
   background-color: #f2f2f2;

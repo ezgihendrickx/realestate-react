@@ -10,14 +10,23 @@ import Aboutus from "./Aboutus";
 import Contact from "./Contact";
 import Error from "./Error";
 import { Route, Switch } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
 
 function App() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div className="App">
       <button href="#" class="sr-only focus:not-sr-only">
         Skip to content
       </button>
-
+      {/* <button onClick={() => changeLanguage("en")}>EN</button>
+      <button onClick={() => changeLanguage("nl")}>NL</button>
+      <Trans i18nKey="description.part1"></Trans>
+      <div>{t("description.part2")}</div> */}
       <Navbar />
 
       <Switch>

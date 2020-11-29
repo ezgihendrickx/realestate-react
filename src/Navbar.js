@@ -1,24 +1,37 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
 
 function Navbar() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <nav class="bg-gray-800">
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-between h-16">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-            {/* Mobile menu button */}
+            {/* Mobile menu button  is hidden now, to change with JS later*/}
             <button
               class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out"
               aria-label="Main menu"
               aria-expanded="false"
+              onClick={() =>
+                document
+                  .getElementById("hamburgerMenu")
+                  .classList.toggle("hidden")
+              }
             >
+              <span class="sr-only">Open main menu</span>
               <svg
                 class="block h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                aria-hidden="true"
               >
                 <path
                   stroke-linecap="round"
@@ -34,6 +47,7 @@ function Navbar() {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
+                aria-hidden="true"
               >
                 <path
                   stroke-linecap="round"
@@ -45,9 +59,10 @@ function Navbar() {
             </button>
           </div>
           <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div class="flex-shrink-0">
+            <div class="flex-shrink-0 flex items-center">
               <Link to="/">
                 <img
+                  class="h-8 w-auto"
                   src="/logo1.png"
                   alt="our logo"
                   width="50px"
@@ -64,28 +79,24 @@ function Navbar() {
               <div class="flex">
                 <Link
                   to="/"
-                  href="#"
                   class="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Home
                 </Link>
                 <Link
                   to="/houses"
-                  href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
-                  Houses
+                  {t("navigation.nav1")}
                 </Link>
                 <Link
                   to="/about"
-                  href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   About Us
                 </Link>
                 <Link
                   to="/contact"
-                  href="#"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Contact
@@ -93,11 +104,11 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            {/* Heroicon name: bell  */}
+          <div class="z-10 absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            {/* LAnguages section begin from here */}
 
             <img
-              src="/english.png"
+              src={t("navigation.languagePicture")}
               width="40px"
               height="40px"
               alt="language"
@@ -106,13 +117,20 @@ function Navbar() {
             <button
               className="border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
               aria-label="Notifications"
+              onClick={() =>
+                document
+                  .getElementById("languageMenu")
+                  .classList.toggle("hidden")
+              }
             >
+              &nbsp; {t("navigation.language")}
               <i className="text-5xl fa p-1 ">
                 <big>&#xf107;</big>
               </i>
             </button>
             {/* Profile dropdown */}
-            <div class="ml-3 relative">
+            <div class="hidden ml-3 relative" id="languageMenu">
+              {/* This div needs to be shown or hidden: toggled when pushing "EN" button */}
               <div>
                 <button
                   class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-white transition duration-150 ease-in-out"
@@ -121,8 +139,8 @@ function Navbar() {
                   aria-haspopup="true"
                 ></button>
               </div>
-
-              <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
+              {/* I made this language button hidden I will add later react- -i18next for translation */}
+              <div class=" origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
                 <div
                   class="py-1 rounded-md bg-white shadow-xs"
                   role="menu"
@@ -130,33 +148,31 @@ function Navbar() {
                   aria-labelledby="user-menu"
                 >
                   <button
-                    href="#"
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
                     role="menuitem"
                   ></button>
                   <button
-                    href="#"
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
                     role="menuitem"
+                    onClick={() => changeLanguage("tr")}
                   >
                     Türkçe
                   </button>
                   <button
-                    href="#"
-                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
+                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                     role="menuitem"
+                    onClick={() => changeLanguage("en")}
                   >
                     English
                   </button>
                   <button
-                    href="#"
-                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
+                    class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                     role="menuitem"
+                    onClick={() => changeLanguage("nl")}
                   >
                     Nederlands
                   </button>
                   <button
-                    href="#"
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
@@ -169,32 +185,44 @@ function Navbar() {
         </div>
       </div>
 
-      <div class="hidden sm:hidden">
-        <div class="px-2 pt-2 pb-3">
-          <button
-            href="#"
+      <div class="hidden sm:hidden" id="hamburgerMenu">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <Link
+            to="/"
             class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            onClick={() =>
+              document.getElementById("hamburgerMenu").classList.add("hidden")
+            }
           >
             Home
-          </button>
-          <button
-            href="#"
+          </Link>
+          <Link
+            to="/houses"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            onClick={() =>
+              document.getElementById("hamburgerMenu").classList.add("hidden")
+            }
           >
             Houses
-          </button>
-          <button
-            href="#"
+          </Link>
+          <Link
+            to="/about"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            onClick={() =>
+              document.getElementById("hamburgerMenu").classList.add("hidden")
+            }
           >
             About Us
-          </button>
-          <button
-            href="#"
+          </Link>
+          <Link
+            to="/contact"
             class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+            onClick={() =>
+              document.getElementById("hamburgerMenu").classList.add("hidden")
+            }
           >
             Contact
-          </button>
+          </Link>
         </div>
       </div>
     </nav>

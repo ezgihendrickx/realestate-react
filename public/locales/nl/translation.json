@@ -1,0 +1,18 @@
+{
+  "title": "Ben je klaar om jouw droom huis te vinden?",
+  "description": {
+    "part1": "Begin vandaag nog met uw avontuuur."
+  },
+  "navigation": {
+    "nav1": "Huizen",
+    "nav2": "Over Ons",
+    "language": "NL",
+    "languagePicture": "/english.png"
+  },
+  "cards": {
+    "header": "Huizen",
+    "price": "Prijs: ",
+    "Adress": "Adres",
+    "Baths": "Badkamers"
+  }
+}

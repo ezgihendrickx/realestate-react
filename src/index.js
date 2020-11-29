@@ -1,15 +1,19 @@
-import React from "react";
+//Suspense comes with i18n to avoid error message when translating files
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./tailwind.css";
 import "./index.css";
 import App from "./App";
+import "./i18n";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <Suspense fallback={<div>Loading...</div>}>
+      <App />
+    </Suspense>
   </BrowserRouter>,
   document.getElementById("root")
 );

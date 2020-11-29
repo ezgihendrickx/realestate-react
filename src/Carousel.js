@@ -2,15 +2,21 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
 
 function Car() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
-    <div className="grid grid-cols-2 gap-2  mx-auto md:justify-self-end">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-2  mx-auto md:justify-self-end ">
       <div class="bg-gray-50">
         <div class=" mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            <span class="block">Ready to make your dream home come true?</span>
-            <span class="block text-indigo-600">Start your journey today.</span>
+            <span class="block">{t("title")}</span>
+            <span class="block text-indigo-600">{t("description.part1")}</span>
           </h2>
         </div>
         <div class="mt-8 ml-10 lg:mt-0 lg:flex-shrink-0">
@@ -20,12 +26,12 @@ function Car() {
               href="#"
               class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
             >
-              Houses
+              {t("navigation.nav1")}
             </Link>
           </div>
         </div>
       </div>
-      <Carousel autoPlay className="pt-5 " width="40rem" height="40rem">
+      <Carousel autoPlay className="pt-5 " width="%50" height="%50">
         <div className>
           <img src="/img/Chimera.JPG" alt="Olympos" />
           <a

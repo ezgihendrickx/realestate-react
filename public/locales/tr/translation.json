@@ -1,0 +1,15 @@
+{
+  "title": "Hayalinizdeki evi bulmaya hazir misiniz?",
+  "description": {
+    "part1": "Yolculuguna hic vakit kaybetmeden bugun basla!.",
+    "part2": "Evler"
+  },
+  "nav1": "Evler",
+  "nav2": "Hakkimizda",
+  "main": {
+    "header": "Evler",
+    "info": "Fiyat: 50.000 $",
+    "Adress": "Adres",
+    "Baths": "Banyo"
+  }
+}

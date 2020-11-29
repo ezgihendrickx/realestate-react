@@ -1,0 +1,18 @@
+{
+  "title": "Ready to make your dream home come true?",
+  "description": {
+    "part1": "Start your journey today."
+  },
+  "navigation": {
+    "nav1": "Houses",
+    "nav2": "About us",
+    "language": "EN",
+    "languagePicture": "/english.png"
+  },
+  "cards": {
+    "header": "Houses",
+    "price": "Price: ",
+    "Adress": "Adress",
+    "Baths": "Bathrooms"
+  }
+}

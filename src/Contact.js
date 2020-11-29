@@ -11,7 +11,7 @@ function Contact() {
           <p class="mt-2 mr-10 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             We're ready to lead you into the dream houses in Antalya..
           </p>
-          <hr className="mt-5 breakline ml-32"></hr>
+          <hr className=" mt-5 breakline ml-32"></hr>
           <div className="flex ml-20 pl-10 tracking-tight lg:text-center">
             <div className="pl-5 pb-15 mt-3">
               <img
@@ -21,9 +21,9 @@ function Contact() {
                 height="200px"
               ></img>
             </div>
-            <div>
-              <p class="mt-12 pl-5 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                <span className="couple italic ">
+            <div className="">
+              <p class="text-left mt-12 pl-5 max-w-2xl text-xl text-gray-500 lg:mx-auto ">
+                <span className="couple italic">
                   Contact with our Dream Team:
                 </span>
                 <p>
@@ -37,7 +37,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div class="container mt-10 ml-10">
+      <div class=" container mt-10 ml-10 lg:mx-auto">
         <form action="/action_page.php">
           <label for="fname">First Name</label>
           <input
