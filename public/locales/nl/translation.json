@@ -6,13 +6,35 @@
   "navigation": {
     "nav1": "Huizen",
     "nav2": "Over Ons",
+    "nav3": "Contact",
     "language": "NL",
-    "languagePicture": "/english.png"
+    "languagePicture": "/netherlands.png"
   },
   "cards": {
-    "header": "Huizen",
-    "price": "Prijs: ",
-    "Adress": "Adres",
-    "Baths": "Badkamers"
+    "price": "Prijs: 50.000 ",
+    "address": "Adres: Altinkum mah. 416 sok. 17/7 D:6",
+    "bedroom": "Slaapkamers:2",
+    "bathroom": "Badkamers:2"
+  },
+  "aboutUs": {
+    "aboutUs": "OVER ONS",
+    "header": "Onze referentieprojecten",
+    "explanation": "Camlik Park Residence is in 2012 gebouwd door Omer Kuk. Hij is een ingenieur en eigenaar van de Antalya Dream Homes Real Estate Company. Hij heeft meer dan 30 jaar ervaring in het bouwen van huizen. "
+  },
+  "contact": {
+    "getintouch": "NEEM CONTACT OP MET ONS",
+    "header2": " We staan klaar om u naar de droomhuizen in Antalya te leiden..",
+    "contact": "Contact met ons Dream Team",
+    "explanation2": "Wij zijn een Belgisch (Corporate Planner) & Turks (Web Developer) couple. We leven in de winter in Antalya en in de zomertijd in Gent, België. We willen u graag helpen voor uw vragen of opmerkingen over Antalya Dream Homes."
+  },
+  "form": {
+    "firstName": "Voornaam",
+    "input1": "Uw naam..",
+    "lastName": "Naam",
+    "input2": "Uw achternaam..",
+    "province": "Provincie",
+    "subject": "Onderwerp",
+    "input3": "Schrijf uw wens ..",
+    "submit": "Verzenden"
   }
 }

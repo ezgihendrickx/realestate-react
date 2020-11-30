@@ -1,15 +1,40 @@
 {
   "title": "Hayalinizdeki evi bulmaya hazir misiniz?",
   "description": {
-    "part1": "Yolculuguna hic vakit kaybetmeden bugun basla!.",
-    "part2": "Evler"
+    "part1": "Yolculuguna hic vakit kaybetmeden bugun basla!"
   },
-  "nav1": "Evler",
-  "nav2": "Hakkimizda",
-  "main": {
-    "header": "Evler",
-    "info": "Fiyat: 50.000 $",
-    "Adress": "Adres",
-    "Baths": "Banyo"
+  "navigation": {
+    "nav1": "Evler",
+    "nav2": "Hakkımızda",
+    "nav3": "İletişim",
+    "language": "TR",
+    "languagePicture": "/turkey.png"
+  },
+  "cards": {
+    "price": "Fiyat: 50.000 ",
+    "address": "Adres: Altinkum mah. 416 sok. 17/7 D:6",
+    "bedroom": "Yatak Odası:2",
+    "bathroom": "Banyo: 2"
+  },
+  "aboutUs": {
+    "aboutUs": "HAKKIMIZDA",
+    "header": "Referans Projelerimiz",
+    "explanation": "Çamlık Park Residence 2012 yılında Ömer Kuk tarafından yapılmıştır. Kendisi makina mühendisidir ve Antalya Dream Homes Emlak Şirketi'nin sahibidir. Evlerin inşaatı ve yapımında 30 yıldan fazla deneyime sahiptir."
+  },
+  "contact": {
+    "getintouch": "BİZİMLE İLETİŞİME GEÇİN",
+    "header2": "Sizi Antalya'da rüya evlerinize götürmeye hazırız..",
+    "contact": "Dream Team ile iletişime geçin",
+    "explanation2": "Belçikalı (Kurumsal Planlamacı) ve Türk (Arayüz Yazılımcısı) bir çiftiz. Kışın Antalya'da, yazın ise Belçika'nın Gent şehrinde yaşıyoruz. Antalya Dream Homes ile ilgili sorularınız veya endişeleriniz için size yardımcı olmak isteriz."
+  },
+  "form": {
+    "firstName": "İsim",
+    "input1": "Adınız..",
+    "lastName": "Soyadı",
+    "input2": "Soy adınız..",
+    "province": "Bölge",
+    "subject": "Konu",
+    "input3": "İsteğinizi yazınız ..",
+    "submit": "Gönder"
   }
 }

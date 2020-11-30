@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
@@ -10,7 +10,7 @@ function Navbar() {
   };
   return (
     <nav class="bg-gray-800">
-      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
         <div class="relative flex items-center justify-between h-16">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Mobile menu button  is hidden now, to change with JS later*/}
@@ -70,7 +70,7 @@ function Navbar() {
                 />
               </Link>
             </div>
-            <div class=" ml-4 px-3 py-2 text-sm font-medium leading-5 text-gray-300 hover:text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
+            <div class="hidden sm:block ml-4 px-3 py-2 text-sm font-medium leading-5 text-gray-300  ">
               <Link to="/">
                 <code>Antalya Dream Homes</code>
               </Link>
@@ -93,13 +93,13 @@ function Navbar() {
                   to="/about"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
-                  About Us
+                  {t("navigation.nav2")}
                 </Link>
                 <Link
                   to="/contact"
                   class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
-                  Contact
+                  {t("navigation.nav3")}
                 </Link>
               </div>
             </div>
@@ -154,27 +154,48 @@ function Navbar() {
                   <button
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
                     role="menuitem"
-                    onClick={() => changeLanguage("tr")}
+                    onClick={() => {
+                      changeLanguage("tr");
+                      document
+                        .getElementById("languageMenu")
+                        .classList.add("hidden");
+                    }}
                   >
                     Türkçe
                   </button>
                   <button
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                     role="menuitem"
-                    onClick={() => changeLanguage("en")}
+                    onClick={() => {
+                      changeLanguage("en");
+                      document
+                        .getElementById("languageMenu")
+                        .classList.add("hidden");
+                    }}
                   >
                     English
                   </button>
                   <button
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
                     role="menuitem"
-                    onClick={() => changeLanguage("nl")}
+                    onClick={() => {
+                      changeLanguage("nl");
+                      document
+                        .getElementById("languageMenu")
+                        .classList.add("hidden");
+                    }}
                   >
                     Nederlands
                   </button>
                   <button
                     class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-150 ease-in-out"
                     role="menuitem"
+                    onClick={() => {
+                      changeLanguage("ru");
+                      document
+                        .getElementById("languageMenu")
+                        .classList.add("hidden");
+                    }}
                   >
                     русский
                   </button>
@@ -203,7 +224,7 @@ function Navbar() {
               document.getElementById("hamburgerMenu").classList.add("hidden")
             }
           >
-            Houses
+            {t("navigation.nav1")}
           </Link>
           <Link
             to="/about"
@@ -212,7 +233,7 @@ function Navbar() {
               document.getElementById("hamburgerMenu").classList.add("hidden")
             }
           >
-            About Us
+            {t("navigation.nav2")}
           </Link>
           <Link
             to="/contact"
@@ -221,7 +242,7 @@ function Navbar() {
               document.getElementById("hamburgerMenu").classList.add("hidden")
             }
           >
-            Contact
+            {t("navigation.nav3")}
           </Link>
         </div>
       </div>

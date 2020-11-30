@@ -1,20 +1,24 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 function Aboutus() {
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div className="Aboutus mt-5">
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto  sm:px-6 lg:px-8">
           <div className="lg:text-center ">
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-              ABOUT US
+            <h2 className="ml-2 text-base text-indigo-600 font-semibold tracking-wide uppercase ">
+              {t("aboutUs.aboutUs")}
             </h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Our Reference Projects
+            <p className="ml-2 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              {t("aboutUs.header")}
             </p>
 
-            <div className="flex ml-20  pl-10 tracking-tight lg:text-center   ">
-              <div className="pl-5 pb-15">
+            <div className="block ml-2 tracking-tight lg:text-center lg:flex">
+              <div className="mt-5 pl-5 pb-15">
                 <img
                   src="/img/baba.png"
                   alt="ownerofcompany"
@@ -23,20 +27,17 @@ function Aboutus() {
                 ></img>
               </div>
               <div>
-                <p className="mt-10 pl-5 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                  Camlik Park Residence was build from Omer Kuk who is an
-                  engineer and owner of Antalya Dream Homes Real Estate Company.
-                  He has more than <strong>30 years</strong> experience in
-                  construction and building houses.
+                <p className="mt-10 max-w-2xl text-xl text-gray-500  lg:pl-5 lg:ml-20 ">
+                  {t("aboutUs.explanation")}
                 </p>
               </div>
             </div>
-            <hr className="mt-5 breakline ml-32"></hr>
+            <div className="hidden sm:block max-w-2xl mt-5 breakline lg:ml-64"></div>
             <div className="mt-10">
               <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                 <div className="flex">
                   <div className="flex-shrink-0"></div>
-                  <div className="ml-24">
+                  <div className="mr-24">
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* Competitive exchange rates */}
                     </dt>
@@ -65,7 +66,7 @@ function Aboutus() {
 
                 <div className="flex">
                   <div className="flex-shrink-0"></div>
-                  <div className="ml-24 foto3">
+                  <div className="mr-24 foto3">
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* Transfers are instant */}
                     </dt>
@@ -91,7 +92,7 @@ function Aboutus() {
 
                 <div className="flex">
                   <div className="flex-shrink-0"></div>
-                  <div className="ml-24 foto5">
+                  <div className="mr-24 foto5">
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* Mobile notifications */}
                     </dt>
