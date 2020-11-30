@@ -33,9 +33,19 @@ function Car() {
       </div>
       <Carousel autoPlay className="pt-5 " width="%50" height="%50">
         <div className>
-          <img src="/img/Chimera.JPG" alt="Olympos" />
+          <img src="/img/Termessos.jpg" alt="Termessos" />
           <a
             className="legend underline  "
+            href="https://en.wikipedia.org/wiki/Termessos"
+          >
+            Termessos Theatre
+          </a>
+        </div>
+        <div className>
+          <img src="/img/Chimera.JPG" alt="Olympos" />
+          <a
+            className="legend underline"
+            alt="Termessos"
             href="https://en.wikipedia.org/wiki/Mount_Chimaera"
           >
             Olympos Chimaera
@@ -51,12 +61,12 @@ function Car() {
           </a>
         </div>
         <div>
-          <img src="/Termessos.jpg" alt="Termessos" />
+          <img src="/img/Phaselis.jpg" alt="Phaselis" />
           <a
             className="legend underline"
-            href="https://en.wikipedia.org/wiki/Termessos"
+            href="https://en.wikipedia.org/wiki/Phaselis"
           >
-            Termessos
+            Phaselis
           </a>
         </div>
         <div>
