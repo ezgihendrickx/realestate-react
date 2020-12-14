@@ -33,67 +33,95 @@ function Car() {
       </div>
       <Carousel autoPlay className="pt-5 " width="%50" height="%50">
         <div className>
-          <img src="/img/Termessos.jpg" alt="Termessos" />
+          <img src="/img/kaleiciyatlimani.jpg" alt="Kaleici oldtown" />
           <a
-            className="legend underline  "
-            href="https://en.wikipedia.org/wiki/Termessos"
+            className="legend underline "
+            href="https://en.wikipedia.org/wiki/Kalei%C3%A7i"
+            target="blank_"
           >
-            Termessos Theatre
+            KALEICI YACHT HARBOUR
+          </a>
+        </div>
+
+        <div>
+          <img src="/img/olympos1.jpg" alt="Olympos" />
+          <a
+            className="legend underline"
+            href="https://en.wikipedia.org/wiki/Olympus_(Lycia)"
+            target="blank_"
+          >
+            OLYMPOS
           </a>
         </div>
         <div className>
-          <img src="/img/Chimera.JPG" alt="Olympos" />
+          <img src="/img/Side.jpg" alt="Side" />
           <a
             className="legend underline"
-            alt="Termessos"
-            href="https://en.wikipedia.org/wiki/Mount_Chimaera"
+            alt="Side"
+            href="https://en.wikipedia.org/wiki/Side%2C_Turkey"
+            target="blank_"
           >
-            Olympos Chimaera
+            SIDE ANCIENT CITY
           </a>
         </div>
         <div>
-          <img src="/img/HadrianGate.JPG" alt="Hadrian's Gate" />
-          <a
-            className="legend underline"
-            href="https://en.wikipedia.org/wiki/Hadrian%27s_Gate"
-          >
-            Hadrian's Gate
-          </a>
-        </div>
-        <div>
-          <img src="/img/Phaselis.jpg" alt="Phaselis" />
-          <a
-            className="legend underline"
-            href="https://en.wikipedia.org/wiki/Phaselis"
-          >
-            Phaselis
-          </a>
-        </div>
-        <div>
-          <img src="/img/Kas.JPG" alt="Kas" />
+          <img src="/img/kas1.jpg" alt="Kas city" />
           <a
             className="legend underline"
             href="https://en.wikipedia.org/wiki/Ka%C5%9F"
           >
-            Kas
+            KAŞ
           </a>
         </div>
         <div>
-          <img src="/img/Olympos.JPG" alt="Olympos" />
+          <img src="/img/phaselis1.jpg" alt="Phaselis" />
           <a
             className="legend underline"
-            href="https://en.wikipedia.org/wiki/Olympus_(Lycia)"
+            href="https://en.wikipedia.org/wiki/Phaselis"
+            target="blank_"
           >
-            Olympos
+            PHASELIS
           </a>
         </div>
         <div>
-          <img src="/img/waterfall.JPG" alt="waterfall" />
+          <img src="/img/kemer1.jpg" alt="Kemer city" />
           <a
             className="legend underline"
-            href="https://en.wikipedia.org/wiki/Manavgat_Waterfall"
+            href="https://en.wikipedia.org/wiki/Kemer"
+            target="blank_"
           >
-            Manavgat Waterfall
+            KEMER
+          </a>
+        </div>
+
+        <div>
+          <img src="/img/skiinginantalya.jpg" alt="skiinginAntalya" />
+          <a
+            className="legend underline"
+            href="http://www.saklikent.com.tr/default.aspx"
+            target="blank_"
+          >
+            SKIING IN ANTALYA
+          </a>
+        </div>
+        <div className>
+          <img src="/img/kekova.jpg" alt="kekovaisland" />
+          <a
+            className="legend underline  "
+            href="https://en.wikipedia.org/wiki/Kekova"
+            target="blank_"
+          >
+            KEKOVA ISLANDS / THE SUNKEN CITY
+          </a>
+        </div>
+        <div className>
+          <img src="/img/konyaaltiplaji.jpg" alt="konyaaltibeach" />
+          <a
+            className="legend underline  "
+            href="https://en.wikipedia.org/wiki/Konyaalt%C4%B1_Beach"
+            target="blank_"
+          >
+            KONYAALTI BEACH
           </a>
         </div>
       </Carousel>
