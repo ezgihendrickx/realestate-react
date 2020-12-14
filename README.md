@@ -1,4 +1,4 @@
-<h2 align="center"><b>AntalyaDom|Homes</b></h2>
+<h2 align="center"><b>AntalyaDom|Homes:house_with_garden:</b></h2>
 
 <p align="center">
   <a href="https://reactjs.org/" target="_blank">
@@ -12,7 +12,7 @@
 </p>
 
 <h2 align="center">
-  <a href="https://determined-saha-7731a1.netlify.app/" target="_blank">:lemon: Live</a>
+  <a href="http://antalyadomhomes.com/" target="_blank">:lemon: Live</a>
  
 </h2>
 <br/>
