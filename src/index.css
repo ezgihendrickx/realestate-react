@@ -39,7 +39,8 @@
 .foto3,
 .foto4,
 .foto5 {
-  width: 26rem;
+  max-width: 26rem;
+  max-height: 26rem;
 }
 input[type="text"],
 select,
@@ -72,3 +73,4 @@ input[type="submit"] {
 /* input[type="submit"]:hover {
   background-color: #45a049;
 } */
+

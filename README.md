@@ -1,4 +1,4 @@
-<h2 align="center"><b>Antalya Dreamhomes</b></h2>
+<h2 align="center"><b>AntalyaDom|Homes</b></h2>
 
 <p align="center">
   <a href="https://reactjs.org/" target="_blank">
@@ -12,12 +12,12 @@
 </p>
 
 <h2 align="center">
-  <a href="https://determined-saha-7731a1.netlify.app/" target="_blank">:globe_with_meridians: Live</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://determined-saha-7731a1.netlify.app/" target="_blank">:lemon: Live</a>
+ 
 </h2>
 <br/>
 
-# Description :point_down:
+# Description 
 
 > AntalyaDreamHomes is my first real estate project. It is a real project for my father who will run this business soon.
 

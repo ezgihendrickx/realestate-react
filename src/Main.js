@@ -15,25 +15,28 @@ function Main() {
       </h1>
 
       <Card
-        src="/img/Antalya.JPG"
-        name="Konyaalti Beach"
+        src="/img/havuzlu.jpg"
+        link="https://www.hurriyetemlak.com/antalya-alanya-sogukpinar-satilik/villa/111828-297"
+        name="Alanya Konakli"
         price={t("cards.price")}
         address={t("cards.address")}
-        capacity="Beds: 2 &#10072; Baths:2"
+        capacity="Room: 4 &#10072; Bath:2"
       />
       <Card
-        src="/img/Kaleici.JPG"
-        name="Kaleici Antalya"
-        price="Price: 30.000 $"
-        address="Adress: Gokyazi mah. Ataturk Cad. N:15 D:8 "
-        capacity="Beds: 3 &#10072; Baths:2"
+        src="/img/altinkum.jpg"
+        link="https://www.hurriyetemlak.com/antalya-konyaalti-altinkum-satilik/daire/111828-216"
+        name="Altinkum Antalya"
+        price="Price: 132.1619 EUR"
+        address="Adress: Altinkum mah. 200m to the sea &nbsp; 2+1 | 85m2"
+        capacity="Room: 2 &#10072; Bath:1"
       ></Card>
       <Card
-        src="/img/Sidecolumn.JPG"
-        name="Side Ancient City"
-        price="Price: 60.000 $"
-        address="Adress: Muratpasa mah. Adnan Menderes Bulv. D:4 "
-        capacity="Beds: 4 &#10072; Baths:3"
+        src="/img/denizesifir.jpg"
+        link="https://www.hurriyetemlak.com/antalya-konyaalti-gursu-satilik/daire/111828-252"
+        name="Konyaalti next to the sea"
+        price="Price: 347,9045 EUR"
+        address="Adress: Konyaalti mah, Gursu 2+1 | 140m2"
+        capacity="Room: 2 &#10072; Baths:2"
       ></Card>
     </main>
   );
