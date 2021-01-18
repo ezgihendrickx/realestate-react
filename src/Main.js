@@ -20,13 +20,14 @@ function Main() {
         name="Alanya Konakli"
         price={t("cards.price")}
         address={t("cards.address")}
-        capacity="Room: 4 &#10072; Bath:2"
+        capacity={t("cards.capacity")}
+        // "Room: 4 &#10072; Bath:2"
       />
       <Card
         src="/img/altinkum.jpg"
         link="https://www.hurriyetemlak.com/antalya-konyaalti-altinkum-satilik/daire/111828-216"
         name="Altinkum Antalya"
-        price="Price: 133.000€"
+        price="Price: 137.000€"
         address="Adress: Altinkum mah. 200m to the sea &nbsp; 2+1 | 85m2"
         capacity="Room: 2 &#10072; Bath:1"
       ></Card>
@@ -34,7 +35,7 @@ function Main() {
         src="/img/denizesifir.jpg"
         link="https://www.hurriyetemlak.com/antalya-konyaalti-gursu-satilik/daire/111828-252"
         name="Konyaalti next to the sea"
-        price="Price: 349.000€"
+        price="Price: 352.000€"
         address="Adress: Konyaalti mah, Gursu 2+1 | 140m2"
         capacity="Room: 2 &#10072; Baths:2"
       ></Card>

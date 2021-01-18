@@ -11,9 +11,9 @@
     "languagePicture": "/turkey.png"
   },
   "cards": {
-    "price": "Fiyat: 50.000 ",
+    "price": "Fiyat: 266.000 ",
     "address": "Adres: Altinkum mah. 416 sok. 17/7 D:6",
-    "bedroom": "Yatak Odası:2",
+    "capacity": "Oda:4 Yatak Odası:2",
     "bathroom": "Banyo: 2"
   },
   "aboutUs": {
