@@ -17,7 +17,7 @@ function Aboutus() {
               {t("aboutUs.header")}
             </p>
 
-            <div className="block ml-2 tracking-tight lg:text-center lg:flex">
+            <div className="lg:flex justify-center ml-2 tracking-tight lg:text-center">
               <div className="mt-5 pl-5 pb-15">
                 <img
                   src="/img/baba.png"
@@ -27,12 +27,12 @@ function Aboutus() {
                 ></img>
               </div>
               <div>
-                <p className="mt-10 max-w-2xl text-xl text-gray-500  lg:pl-5 lg:ml-20 ">
+                <p className="mt-10 max-w-2xl text-xl text-gray-500 lg:ml-2 ">
                   {t("aboutUs.explanation")}
                 </p>
               </div>
             </div>
-            <div className="hidden sm:block max-w-2xl mt-5 breakline lg:ml-64"></div>
+            <div className="hidden sm:block lg:max-w-9xl mt-5 breakline lg:ml-64"></div>
             <div className="mt-10">
               <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                 <div className="flex">
@@ -45,7 +45,7 @@ function Aboutus() {
                       <img src="/img/kukgarden.png" alt="gardenview"></img>
                     </div>
                     <dd className="mt-2  text-base text-gray-500">
-                      Garden views / landscape from the building blocks
+                      {/* Garden views / landscape from the building blocks */}
                     </dd>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ function Aboutus() {
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* No hidden fees */}
                     </dt>
-                    <dd className="mt-2 text-base text-gray-500">Pool</dd>
+                    {/* <dd className="mt-2 text-base text-gray-500">Pool</dd> */}
                   </div>
                 </div>
 

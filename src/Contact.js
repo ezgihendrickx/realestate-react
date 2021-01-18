@@ -16,8 +16,8 @@ function Contact() {
             {t("contact.header2")}
           </p>
 
-          <div className="block ml-2 tracking-tight lg:text-center lg:flex">
-            <div className="mt-5 pl-5 pb-15">
+          <div className=" tracking-tight lg:flex justify-center ">
+            <div className="mt-5 pl-5 ">
               <img
                 src="/img/us.png"
                 alt="couple"
@@ -26,7 +26,7 @@ function Contact() {
               ></img>
             </div>
             <div>
-              <p class="mt-10 max-w-2xl text-xl text-gray-500  lg:pl-5 lg:ml-20">
+              <p class=" mt-10 max-w-2xl text-xl text-gray-500 ml-2  ">
                 {/* text-left mt-12 pl-5 max-w-2xl text-xl text-gray-500 lg:mx-auto  */}
                 <span className="couple italic">
                   {t("contact.contact")} <big>🧚🏽‍♀️</big>
