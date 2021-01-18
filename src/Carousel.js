@@ -11,27 +11,8 @@ function Car() {
     i18n.changeLanguage(language);
   };
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-2  mx-auto md:justify-self-end ">
-      <div class="bg-gray-50">
-        <div class=" mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-          <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            <span class="block">{t("title")}</span>
-            <span class="block text-indigo-600">{t("description.part1")}</span>
-          </h2>
-        </div>
-        <div class="mt-8 ml-10 lg:mt-0 lg:flex-shrink-0">
-          <div class="inline-flex  rounded-md shadow">
-            <Link
-              to="/houses"
-              href="#"
-              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
-            >
-              {t("navigation.nav1")}
-            </Link>
-          </div>
-        </div>
-      </div>
-      <Carousel autoPlay className="pt-5 " width="%50" height="%50">
+    <div className="max-w-5xl gap-2  mx-auto md:justify-self-end ">
+      <Carousel autoPlay className="pt-5 " width="%50" height="%50 ">
         <div className>
           <img src="/img/kaleiciyatlimani.jpg" alt="Kaleici oldtown" />
           <a

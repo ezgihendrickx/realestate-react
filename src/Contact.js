@@ -33,6 +33,9 @@ function Contact() {
                 </span>
                 <p>{t("contact.explanation2")}</p>
               </p>
+              <p className="mt-5 max-w-2xl text-xl text-gray-500 ml-2 ">
+                ezgihendrickx@gmail.com
+              </p>
             </div>
           </div>
         </div>

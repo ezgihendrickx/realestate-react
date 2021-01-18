@@ -11,6 +11,7 @@ import Contact from "./Contact";
 import Error from "./Error";
 import { Route, Switch } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
+import "./tailwind.css";
 
 function App() {
   const { t, i18n } = useTranslation();
