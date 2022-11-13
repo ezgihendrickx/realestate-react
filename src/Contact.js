@@ -34,7 +34,7 @@ function Contact() {
                 <p>{t("contact.explanation2")}</p>
               </p>
               <p className="mt-5 max-w-2xl text-xl text-gray-500 ml-2 ">
-                ezgihendrickx@gmail.com
+                antalyadomhomes@inbox.ru
               </p>
             </div>
           </div>
@@ -51,7 +51,6 @@ function Contact() {
             name="firstname"
             placeholder={t("form.input1")}
           />
-
           <label for="lname" className="text-white ">
             {t("form.lastName")}
           </label>
