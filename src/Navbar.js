@@ -72,7 +72,7 @@ function Navbar() {
             </div>
             <div class="hidden sm:block ml-4 px-3 py-2 text-sm font-medium leading-5 text-gray-300  ">
               <Link to="/">
-                <code>AntalyaDom|Homes</code>
+                <code>AntalyaДom|Homes</code>
               </Link>
             </div>
             <div class="hidden sm:block sm:ml-6">
