@@ -102,6 +102,18 @@ function Aboutus() {
                     </dd>
                   </div>
                 </div>
+                <div className="flex">
+                  <div className="flex-shrink-0"></div>
+                  <div className="mr-24 foto6">
+                    <dt className="text-lg leading-6 font-medium text-gray-900">
+                      {/* Mobile notifications */}
+                    </dt>
+                    <img src="/img/logos1.jpg" alt="reference"></img>
+                    <dd className="mt-1 text-base text-gray-500">
+                      Certificates
+                    </dd>
+                  </div>
+                </div>
               </dl>
             </div>
           </div>

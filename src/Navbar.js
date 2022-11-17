@@ -65,8 +65,8 @@ function Navbar() {
                   class="h-8 w-auto"
                   src="/logo1.png"
                   alt="our logo"
-                  width="50px"
-                  height="50px"
+                  width="100px"
+                  height="100px"
                 />
               </Link>
             </div>
