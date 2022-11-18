@@ -16,7 +16,7 @@ function Main() {
       <div className="flex justify-center">
         <Card
           src="/img/ablokno60.jpg"
-          link="https://antalyadomhomes.com/"
+          link="/details"
           name="Alanya Center, see more"
           price={t("cards.price")}
           address={t("cards.address")}

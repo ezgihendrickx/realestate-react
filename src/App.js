@@ -1,5 +1,6 @@
 import React from "react";
 
+import Details from "./Details";
 import Home from "./Home";
 import Navbar from "./Navbar";
 // import Car from "./Carousel";
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" component={Home} exact></Route>
         <Route path="/about" component={Aboutus} />
         <Route path={"/houses"} component={Main} />
+        <Route path={"/details"} component={Details} />
         <Route path={"/contact"} component={Contact} />
         <Route component={Error} />
       </Switch>
