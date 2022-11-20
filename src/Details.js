@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   CarouselProvider,
   Slider,
@@ -9,8 +10,11 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
-
-export default function Details() {
+function Details(props) {
+  const { t, i18n } = useTranslation();
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
   return (
     <div className="container mx-auto">
       <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
@@ -902,3 +906,4 @@ export default function Details() {
     </div>
   );
 }
+export default Details;
