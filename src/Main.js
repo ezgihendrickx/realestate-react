@@ -15,10 +15,10 @@ function Main() {
         {t("navigation.nav1")} &#127969;
       </h1>
       <div className="flex justify-center">
-        <div className="relative">
+        <div className="">
           <Link to="/Details">
             <Card
-              src="/img/ablokno60.jpg"
+              src="/img/alanyadis.jpg"
               //link="/details"
               name="Alanya Center, see more"
               price={t("cards.price")}
@@ -28,7 +28,7 @@ function Main() {
             />
           </Link>
         </div>
-        <div className="relative">
+        <div className="">
           <Link to="/Details">
             <Card
               src="/img/dreamhomes1.jpg"
@@ -40,7 +40,7 @@ function Main() {
             ></Card>
           </Link>
         </div>
-        <div className="relative">
+        <div className="">
           <Link to="/Details">
             <Card
               src="/img/dreamhomes2.jpg"
