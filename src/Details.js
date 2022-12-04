@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import {
   CarouselProvider,
   Slider,
@@ -139,14 +140,16 @@ function Details(props) {
                   </div>
                 </div>
               </a>
-              <div>
-                <a
-                  href="contact#"
-                  class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-                >
+              <Link to="/contact">
+                <div class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
+                  {/*<a
+                    href="contact"
+                    class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+  >*/}
                   Get in Touch
-                </a>
-              </div>
+                  {/*<a</a>*/}
+                </div>
+              </Link>
             </div>
           </div>
         </div>

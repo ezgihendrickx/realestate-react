@@ -124,7 +124,7 @@ function Navbar() {
               }
             >
               &nbsp; {t("navigation.language")}
-              <i className="text-5xl fa p-1 ">
+              <i className="text-2xl fa p-1 ">
                 <big>&#xf107;</big>
               </i>
             </button>
