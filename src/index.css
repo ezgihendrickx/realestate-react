@@ -74,3 +74,19 @@ input[type="submit"] {
   background-color: #45a049;
 } */
 
+.gallery {
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: center;
+}
+
+.gallery img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+.gallery img:hover {
+	transform: scale(1.1);
+}
+

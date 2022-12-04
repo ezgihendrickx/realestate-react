@@ -155,6 +155,7 @@ function Details(props) {
         </div>
       </div>
 
+      {/* Below: photo gallery
       <div class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="flex flex-wrap md:-m-2 -m-1">
@@ -206,6 +207,16 @@ function Details(props) {
             </div>
           </div>
         </div>
+      </div>
+       */}
+
+      <div class="gallery">
+        <img src="/img/houses/1/mutfak.jpg" />
+        <img src="/img/houses/1/giris.jpg" />
+        <img src="/img/houses/1/salon.jpg" />
+        <img src="/img/houses/1/yatakodasi.jpg" />
+        <img src="/img/houses/1/lavabo.jpg" />
+        <img src="/img/houses/1/teras.jpg" />
       </div>
     </section>
   );

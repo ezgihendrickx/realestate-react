@@ -12,9 +12,11 @@ function Main() {
   let provinces = ["Antalya"];
   let cities = ["Antalya", "Alanya", "Manavgat", "Kemer", "Kumluca", "Kaş"];
   let districts = [""];
+  let status = ["For Sale", "Sold", "Deleted", "Option"];
   let houses = [
     {
       id: 1,
+      status: status[0],
       registration: new Date("2022-12-04"),
       name: "Konak Twin Towers",
       type: houseTypes[2],
@@ -30,7 +32,9 @@ function Main() {
       descrLocation: "",
       bedrooms: 2,
       bathrooms: 2,
+      parking: 2,
       m2: 140,
+      //Note: later add boolean for swimming pool, sauna, fitness etc. to filter on//
     },
     {
       id: 2,
@@ -54,7 +58,7 @@ function Main() {
               src="/img/houses/1/card.jpg"
               //link="/details"
               name="Alanya Center, see more"
-              price={t("cards.price")}
+              price={houses[0].priceEUR}
               address={t("cards.address")}
               capacity={t("cards.capacity")}
               // "Room: 4 &#10072; Bath:2"
@@ -67,7 +71,7 @@ function Main() {
               src="/img/houses/2/card.jpg"
               link="https://antalyadomhomes.com/"
               name="Alanya Center, see more"
-              price="209.000 €"
+              price="209.000"
               address="700m to Cleopatra beach 2+1 | 70m2"
               capacity="Room: 2 &#10072; Bath:1"
             ></Card>
@@ -79,7 +83,7 @@ function Main() {
               src="/img/houses/3/card.jpg"
               link="https://antalyadomhomes.com/"
               name="Alanya Center, see more"
-              price="309.000 €"
+              price="309.000"
               address="700m to Cleopatra beach 3+1 | 138m2"
               capacity="Room: 2 &#10072; Bath:2"
             ></Card>
