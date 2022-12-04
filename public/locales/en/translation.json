@@ -16,6 +16,7 @@
     "capacity": "Room: 2 Bath:2",
     "bathroom": "Bathroom: 2"
   },
+  "houses": [{}, {}],
   "aboutUs": {
     "aboutUs": "ABOUT US",
     "header": "Our Reference Projects",

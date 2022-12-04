@@ -26,7 +26,7 @@ function Details(props) {
             <div class="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="House"
-                src="/img/ablokno60.jpg"
+                src="/img/houses/1/main.jpg"
                 class="absolute inset-0 h-full w-full object-cover"
               />
             </div>
@@ -59,13 +59,11 @@ function Details(props) {
                   <dl>
                     <div>
                       <dt class="sr-only">Price</dt>
-
                       <dd class="text-sm text-gray-500">489.000 €</dd>
                     </div>
 
                     <div>
                       <dt class="sr-only">Address</dt>
-
                       <dd class="font-medium">
                         Mahmutlar Mah. D-400 highway BLV. NO:23A ALANYA/ANTALYA{" "}
                       </dd>
@@ -91,7 +89,6 @@ function Details(props) {
 
                       <div class="mt-1.5 sm:ml-3 sm:mt-0">
                         <p class="text-gray-500">Parking</p>
-
                         <p class="font-medium">2 spaces</p>
                       </div>
                     </div>
@@ -114,7 +111,6 @@ function Details(props) {
 
                       <div class="mt-1.5 sm:ml-3 sm:mt-0">
                         <p class="text-gray-500">Bathroom</p>
-
                         <p class="font-medium">2 rooms</p>
                       </div>
                     </div>
@@ -137,7 +133,6 @@ function Details(props) {
 
                       <div class="mt-1.5 sm:ml-3 sm:mt-0">
                         <p class="text-gray-500">Bedroom</p>
-
                         <p class="font-medium">2 rooms</p>
                       </div>
                     </div>
@@ -146,7 +141,7 @@ function Details(props) {
               </a>
               <div>
                 <a
-                  href="#"
+                  href="contact#"
                   class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
                 >
                   Get in Touch
@@ -165,21 +160,21 @@ function Details(props) {
                 <img
                   alt="gallery"
                   class="w-full object-cover h-full object-center block"
-                  src="/img/mutfak.jpg"
+                  src="/img/houses/1/mutfak.jpg"
                 />
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   class="w-full object-cover h-full object-center block"
-                  src="/img/giris.jpg"
+                  src="/img/houses/1/giris.jpg"
                 />
               </div>
               <div class="md:p-2 p-1 w-full">
                 <img
                   alt="gallery"
                   class="w-full h-full object-cover object-center block"
-                  src="/img/salon.jpg"
+                  src="/img/houses/1/salon.jpg"
                 />
               </div>
             </div>
@@ -188,21 +183,21 @@ function Details(props) {
                 <img
                   alt="gallery"
                   class="w-full h-full object-cover object-center block"
-                  src="/img/yatakodasi.jpg"
+                  src="/img/houses/1/yatakodasi.jpg"
                 />
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   class="w-full object-cover h-full object-center block"
-                  src="/img/lavabo.jpg"
+                  src="/img/houses/1/lavabo.jpg"
                 />
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   class="w-full object-cover h-full object-center block"
-                  src="/img/teras.jpg"
+                  src="/img/houses/1/teras.jpg"
                 />
               </div>
             </div>

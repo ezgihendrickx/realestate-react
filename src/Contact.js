@@ -19,7 +19,7 @@ function Contact() {
           <div className=" tracking-tight lg:flex justify-center ">
             <div className="mt-5 pl-5 ">
               <img
-                src="/img/us.png"
+                src="/img/aboutUs/us.png"
                 alt="couple"
                 width="200px"
                 height="200px"

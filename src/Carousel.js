@@ -11,10 +11,11 @@ function Car() {
     i18n.changeLanguage(language);
   };
   return (
-    <div className="max-w-5xl gap-2  mx-auto md:justify-self-end ">
+    <div className="max-w-4xl gap-2  mx-auto md:justify-self-end ">
+      {/* to adjust size of carousel: adjust 4xl above*/}
       <Carousel autoPlay className="pt-5 " width="%50" height="%50 ">
         <div className>
-          <img src="/img/kaleiciyatlimani.jpg" alt="Kaleici oldtown" />
+          <img src="/img/antalya/kaleiciyatlimani.jpg" alt="Kaleici oldtown" />
           <a
             className="legend underline "
             href="https://en.wikipedia.org/wiki/Kalei%C3%A7i"
@@ -25,7 +26,7 @@ function Car() {
         </div>
 
         <div>
-          <img src="/img/olympos1.jpg" alt="Olympos" />
+          <img src="/img/antalya/olympos1.jpg" alt="Olympos" />
           <a
             className="legend underline"
             href="https://en.wikipedia.org/wiki/Olympus_(Lycia)"
@@ -35,7 +36,7 @@ function Car() {
           </a>
         </div>
         <div className>
-          <img src="/img/Side.jpg" alt="Side" />
+          <img src="/img/antalya/Side.jpg" alt="Side" />
           <a
             className="legend underline"
             alt="Side"
@@ -46,7 +47,7 @@ function Car() {
           </a>
         </div>
         <div>
-          <img src="/img/kas1.jpg" alt="Kas city" />
+          <img src="/img/antalya/kas1.jpg" alt="Kas city" />
           <a
             className="legend underline"
             href="https://en.wikipedia.org/wiki/Ka%C5%9F"
@@ -55,7 +56,7 @@ function Car() {
           </a>
         </div>
         <div>
-          <img src="/img/phaselis1.jpg" alt="Phaselis" />
+          <img src="/img/antalya/phaselis1.jpg" alt="Phaselis" />
           <a
             className="legend underline"
             href="https://en.wikipedia.org/wiki/Phaselis"
@@ -65,7 +66,7 @@ function Car() {
           </a>
         </div>
         <div>
-          <img src="/img/kemer1.jpg" alt="Kemer city" />
+          <img src="/img/antalya/kemer1.jpg" alt="Kemer city" />
           <a
             className="legend underline"
             href="https://en.wikipedia.org/wiki/Kemer"
@@ -76,7 +77,7 @@ function Car() {
         </div>
 
         <div>
-          <img src="/img/skiinginantalya.jpg" alt="skiinginAntalya" />
+          <img src="/img/antalya/skiinginantalya.jpg" alt="skiinginAntalya" />
           <a
             className="legend underline"
             href="http://www.saklikent.com.tr/default.aspx"
@@ -86,7 +87,7 @@ function Car() {
           </a>
         </div>
         <div className>
-          <img src="/img/kekova.jpg" alt="kekovaisland" />
+          <img src="/img/antalya/kekova.jpg" alt="kekovaisland" />
           <a
             className="legend underline  "
             href="https://en.wikipedia.org/wiki/Kekova"
@@ -96,7 +97,7 @@ function Car() {
           </a>
         </div>
         <div className>
-          <img src="/img/konyaaltiplaji.jpg" alt="konyaaltibeach" />
+          <img src="/img/antalya/konyaaltiplaji.jpg" alt="konyaaltibeach" />
           <a
             className="legend underline  "
             href="https://en.wikipedia.org/wiki/Konyaalt%C4%B1_Beach"

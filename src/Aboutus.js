@@ -20,7 +20,7 @@ function Aboutus() {
             <div className="lg:flex justify-center ml-2 tracking-tight lg:text-center">
               <div className="mt-5 pl-5 pb-15">
                 <img
-                  src="/img/baba.png"
+                  src="/img/aboutUs/baba.png"
                   alt="ownerofcompany"
                   width="200px"
                   height="200px"
@@ -42,7 +42,10 @@ function Aboutus() {
                       {/* Competitive exchange rates */}
                     </dt>
                     <div className="foto1">
-                      <img src="/img/kukgarden.png" alt="gardenview"></img>
+                      <img
+                        src="/img/aboutUs/kukgarden.png"
+                        alt="gardenview"
+                      ></img>
                     </div>
                     <dd className="mt-2  text-base text-gray-500">
                       {/* Garden views / landscape from the building blocks */}
@@ -54,7 +57,7 @@ function Aboutus() {
                   <div className="flex-shrink-0"></div>
                   <div className="mr-24 ">
                     <div className="foto2">
-                      <img src="/img/pool.png" alt="photocollage"></img>
+                      <img src="/img/aboutUs/pool.png" alt="photocollage"></img>
                     </div>
 
                     <dt className="text-lg leading-6 font-medium text-gray-900">
@@ -70,7 +73,7 @@ function Aboutus() {
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* Transfers are instant */}
                     </dt>
-                    <img src="/img/kuk.png" alt="logo"></img>
+                    <img src="/img/aboutUs/kuk.png" alt="logo"></img>
                     <dd className="mt-2 text-base text-gray-500">
                       Camlik Park Residence, Kuk Group
                     </dd>
@@ -83,7 +86,7 @@ function Aboutus() {
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* Mobile notifications */}
                     </dt>
-                    <img src="/img/indoor.png" alt="indoor"></img>
+                    <img src="/img/aboutUs/indoor.png" alt="indoor"></img>
                     <dd className="mt-2 text-base text-gray-500">
                       Indoor decoration
                     </dd>
@@ -96,7 +99,7 @@ function Aboutus() {
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* Mobile notifications */}
                     </dt>
-                    <img src="/img/collage.png" alt="reference"></img>
+                    <img src="/img/aboutUs/collage.png" alt="reference"></img>
                     <dd className="mt-2 text-base text-gray-500">
                       Photo Collage of the Project
                     </dd>
@@ -108,7 +111,7 @@ function Aboutus() {
                     <dt className="text-lg leading-6 font-medium text-gray-900">
                       {/* Mobile notifications */}
                     </dt>
-                    <img src="/img/logos1.jpg" alt="reference"></img>
+                    <img src="/img/aboutUs/logos1.jpg" alt="reference"></img>
                     <dd className="mt-1 text-base text-gray-500">
                       Certificates
                     </dd>
