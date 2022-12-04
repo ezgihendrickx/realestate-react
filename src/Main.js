@@ -14,6 +14,7 @@ function Main() {
   let districts = [""];
   let status = ["For Sale", "Sold", "Deleted", "Option"];
   let houses = [
+    {},
     {
       id: 1,
       status: status[0],
@@ -51,14 +52,14 @@ function Main() {
         {" "}
         {t("navigation.nav1")} &#127969;
       </h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center flex-wrap">
         <div className="">
           <Link to="/Details">
             <Card
               src="/img/houses/1/card.jpg"
               //link="/details"
-              name="Alanya Center, see more"
-              price={houses[0].priceEUR}
+              name={houses[1].name}
+              price={houses[1].priceEUR}
               address={t("cards.address")}
               capacity={t("cards.capacity")}
               // "Room: 4 &#10072; Bath:2"
