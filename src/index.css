@@ -84,9 +84,9 @@ input[type="submit"] {
 	width: 600px;
 	height: 400px;
 	margin: 10px;
-	transition: all 1s;
+	transition: all 0.5s;
 }
 .gallery img:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
