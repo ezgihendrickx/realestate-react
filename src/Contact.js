@@ -1,12 +1,33 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import emailjs from '@emailjs/browser';
+
+// npm install @emailjs/browser --save
+
 function Contact() {
   const { t, i18n } = useTranslation();
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs.sendForm('gmail', 'template_upc9s6f', e.target, '7QwYKCcSuVL9Zp_dO')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+  
+  
+
   return (
     <div class="py-10 bg-white">
+
+
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2 class="ml-2 text-base text-indigo-600 font-semibold tracking-wide uppercase ">
@@ -41,7 +62,8 @@ function Contact() {
         </div>
       </div>
       <div class=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
-        <form action="/action_page.php ">
+       
+        <form  onSubmit={sendEmail} action="/action_page.php ">
           <label for="fname" className="text-white ">
             {t("form.firstName")}
           </label>
@@ -84,6 +106,7 @@ function Contact() {
             className="bg-indigo-600 font-semibold"
           />
         </form>
+      
       </div>
     </div>
   );
