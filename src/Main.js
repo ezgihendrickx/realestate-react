@@ -14,9 +14,8 @@ function Main() {
   let districts = [""];
   let status = ["For Sale", "Sold", "Deleted", "Option"];
   let houses = [
-    {},
     {
-      id: 1,
+      id: 0,
       status: status[0],
       registration: new Date("2022-12-04"),
       name: "Konak Twin Towers",
@@ -38,11 +37,11 @@ function Main() {
       //Note: later add boolean for swimming pool, sauna, fitness etc. to filter on//
     },
     {
-      id: 2,
+      id: 1,
       name: "Alanya center",
     },
     {
-      id: 3,
+      id: 2,
       name: "Alanya center",
     },
   ];
@@ -58,8 +57,8 @@ function Main() {
             <Card
               src="/img/houses/1/card.jpg"
               //link="/details"
-              name={houses[1].name}
-              price={houses[1].priceEUR}
+              name={houses[0].name}
+              price={houses[0].priceEUR}
               address={t("cards.address")}
               capacity={t("cards.capacity")}
               // "Room: 4 &#10072; Bath:2"

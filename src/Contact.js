@@ -9,25 +9,22 @@ function Contact() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+let submitTest ="";
 
   const sendEmail = (e) => {
-    e.preventDefault();
-  
-    emailjs.sendForm('gmail', 'template_upc9s6f', e.target, '7QwYKCcSuVL9Zp_dO')
+    e.preventDefault();  
+    emailjs.sendForm('service_2npudtj', 'template_upc9s6f', e.target, '7QwYKCcSuVL9Zp_dO')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text);  
+          submitTest="Test";        
       }, (error) => {
           console.log(error.text);
       });
       e.target.reset()
   };
   
-  
-
-  return (
+   return (
     <div class="py-10 bg-white">
-
-
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2 class="ml-2 text-base text-indigo-600 font-semibold tracking-wide uppercase ">
@@ -82,15 +79,27 @@ function Contact() {
             name="lastname"
             placeholder={t("form.input2")}
           />
+          <label for="email" className="text-white ">
+            {t("form.email")}
+          </label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder={t("form.input4")}
+          />
+           {/*
           <label for="province" className="text-white ">
             {t("form.province")}
           </label>
+         
           <select id="province" name="province">
             <option value="Antalya Centrum">Antalya Center</option>
             <option value="Alanya">Alanya</option>
             <option value="Kemer">Kemer</option>
             <option value="Kalkan">Kalkan</option>
           </select>
+  */}
           <label for="subject" className="text-white ">
             {t("form.subject")}
           </label>
@@ -106,8 +115,12 @@ function Contact() {
             className="bg-indigo-600 font-semibold"
           />
         </form>
-      
-      </div>
+        </div>
+        <div className="text-black">
+          <br />
+          {submitTest}
+                 {/*To write this code: confirmation message when send*/}
+        </div>
     </div>
   );
 }

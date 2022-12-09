@@ -36,6 +36,8 @@
     "province": "Province",
     "subject": "Subject",
     "input3": "Write your wish..",
-    "submit": "Submit"
+    "submit": "Submit",
+    "email": "Email",
+    "input4":"Write your email"
   }
 }
