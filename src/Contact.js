@@ -13,6 +13,7 @@ function Contact() {
   //Function sendEmail communicates with "EmailJS" server, sends e-mail to Gmail
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         "service_2npudtj",
@@ -76,7 +77,7 @@ function Contact() {
         </div>
       </div>
       <div class=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
-        <form onSubmit={sendEmail && handleConfirm} action="/action_page.php ">
+        <form onSubmit={handleConfirm && sendEmail} action="/action_page.php ">
           <label for="fname" className="text-white ">
             {t("form.firstName")}
           </label>
