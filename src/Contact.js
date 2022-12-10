@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 // npm install @emailjs/browser --save
 
@@ -9,21 +9,38 @@ function Contact() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
-let submitTest ="";
 
+  //Function sendEmail communicates with "EmailJS" server, sends e-mail to Gmail
   const sendEmail = (e) => {
-    e.preventDefault();  
-    emailjs.sendForm('service_2npudtj', 'template_upc9s6f', e.target, '7QwYKCcSuVL9Zp_dO')
-      .then((result) => {
-          console.log(result.text);  
-          submitTest="Test";        
-      }, (error) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_2npudtj",
+        "template_upc9s6f",
+        e.target,
+        "7QwYKCcSuVL9Zp_dO"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset()
+        }
+      );
+    e.target.reset();
   };
-  
-   return (
+
+  //Function to show a confirmation message
+  const [show_confirm_msg, setShowConfirmMsg] = useState(false);
+  const handleConfirm = (e) => {
+    if (!show_confirm_msg) {
+      e.preventDefault();
+      setShowConfirmMsg(true);
+    }
+  };
+
+  return (
     <div class="py-10 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
@@ -59,8 +76,7 @@ let submitTest ="";
         </div>
       </div>
       <div class=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
-       
-        <form  onSubmit={sendEmail} action="/action_page.php ">
+        <form onSubmit={sendEmail && handleConfirm} action="/action_page.php ">
           <label for="fname" className="text-white ">
             {t("form.firstName")}
           </label>
@@ -88,7 +104,7 @@ let submitTest ="";
             name="email"
             placeholder={t("form.input4")}
           />
-           {/*
+          {/*
           <label for="province" className="text-white ">
             {t("form.province")}
           </label>
@@ -111,16 +127,24 @@ let submitTest ="";
           ></textarea>
           <input
             type="submit"
+            onclick={handleConfirm}
             value={t("form.submit")}
             className="bg-indigo-600 font-semibold"
           />
         </form>
+        {/*End Form*/}
+
+        <div className="text-white">
+          {show_confirm_msg && (
+            <div>
+              <br />
+              Thank you for your message. We will contact you as soon as
+              possible.
+            </div>
+          )}
+          {/*To write this code: confirmation message when send*/}
         </div>
-        <div className="text-black">
-          <br />
-          {submitTest}
-                 {/*To write this code: confirmation message when send*/}
-        </div>
+      </div>
     </div>
   );
 }
