@@ -42,13 +42,13 @@ function Contact() {
   };
 
   return (
-    <div class="py-10 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:text-center">
-          <h2 class="ml-2 text-base text-indigo-600 font-semibold tracking-wide uppercase ">
+    <div className="py-10 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="lg:text-center">
+          <h2 className="ml-2 text-base text-indigo-600 font-semibold tracking-wide uppercase ">
             {t("contact.getintouch")}
           </h2>
-          <p class="ml-2 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="ml-2 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             {t("contact.header2")}
           </p>
 
@@ -62,7 +62,7 @@ function Contact() {
               ></img>
             </div>
             <div>
-              <p class=" mt-10 max-w-2xl text-xl text-gray-500 ml-2  ">
+              <p className=" mt-10 max-w-2xl text-xl text-gray-500 ml-2  ">
                 {/* text-left mt-12 pl-5 max-w-2xl text-xl text-gray-500 lg:mx-auto  */}
                 <span className="couple italic">
                   {t("contact.contact")} <big>🧚🏽‍♀️</big>
@@ -76,7 +76,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div class=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
+      <div className=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
         <form onSubmit={handleConfirm && sendEmail}>
           {/*action="/action_page.php "*/}
           <label for="fname" className="text-white ">

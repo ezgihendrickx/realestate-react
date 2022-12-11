@@ -69,7 +69,7 @@ function Main() {
           <Link to="/Details">
             <Card
               src="/img/houses/2/card.jpg"
-              link="https://antalyadomhomes.com/"
+              //link="https://antalyadomhomes.com/"*/}
               name="Alanya Center, see more"
               price="209.000"
               address="700m to Cleopatra beach 2+1 | 70m2"
@@ -81,7 +81,7 @@ function Main() {
           <Link to="/Details">
             <Card
               src="/img/houses/3/card.jpg"
-              link="https://antalyadomhomes.com/"
+              //link="https://antalyadomhomes.com/"
               name="Alanya Center, see more"
               price="309.000"
               address="700m to Cleopatra beach 3+1 | 138m2"

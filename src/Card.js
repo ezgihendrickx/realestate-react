@@ -2,7 +2,7 @@ import React from "react";
 function Card(props) {
   return (
     <div id="appcard" className="bg-gray-600">
-      <div>
+      <div className="">
         <img
           className="fotos z-0"
           src={props.src}
@@ -11,11 +11,12 @@ function Card(props) {
           height="380px"
         />
       </div>
+      {/*src line: Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.*/}
 
       <div className=" mb-5 text-white underline cursor-pointer leading-relaxed text-center text-lg hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
-        <a href={props.link} target="blank_">
-          {props.name}
-        </a>
+        {/*<a href={props.link} target="blank_">*/}
+        {props.name}
+        {/*</a>*/}
       </div>
       <div className="box-border box-content text-base sm:text-s md:text-xl lg:text-xl  ml-10 pl-10  h-32 w-64 p-4 rounded-lg bg-white border-2 border-gray-600 ">
         <h2>{props.price} €</h2>

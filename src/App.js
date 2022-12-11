@@ -22,7 +22,7 @@ function App() {
   };
   return (
     <div className="App">
-      <button href="#" class="sr-only focus:not-sr-only">
+      <button href="#" className="sr-only focus:not-sr-only">
         Skip to content
       </button>
       {/* <button onClick={() => changeLanguage("en")}>EN</button>

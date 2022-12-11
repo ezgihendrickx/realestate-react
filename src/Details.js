@@ -22,24 +22,26 @@ function Details(props) {
   return (
     //burasi carousel
     <section autofocus>
-      <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-          <div class="relative z-10 lg:py-16">
-            <div class="relative h-64 sm:h-80 lg:h-full">
+      <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+          <div className="relative z-10 lg:py-16">
+            <div classNaùe="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="House"
                 src="/img/houses/1/main.jpg"
-                class="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
           </div>
 
-          <div class="relative flex items-center bg-gray-100">
-            <span class="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"></span>
+          <div className="relative flex items-center bg-gray-100">
+            <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
-            <div class="p-8 sm:p-16 lg:p-24">
-              <h1 class="text-2xl font-bold sm:text-3xl">Konak Twin Towers</h1>
-              <p class="mt-4 text-gray-600">
+            <div className="p-8 sm:p-16 lg:p-24">
+              <h1 className="text-2xl font-bold sm:text-3xl">
+                Konak Twin Towers
+              </h1>
+              <p className="mt-4 text-gray-600">
                 Konak Twin Towers 1 Project consists of a land area of ​​3,751
                 m2. It consists of 2 blocks and 174 flats in the city center of
                 Alanya. 200 mt. to Mahmutlar center, 20 mt. to the beach. is at
@@ -47,31 +49,31 @@ function Details(props) {
                 castle view.
               </p>
 
-              <p class="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-600">
                 Common Areas: Indoor Parking Lot, Doorman, 24 Hour Security,
                 Outdoor Swimming Pool, Indoor Swimming Pool, Fitness, Turkish
                 Bath, Steam Room, Massage Room, Sauna, Pool Bar, Children's
                 Playground, Internet, Satellite System
               </p>
-              <div class="mt-2">
+              <div className="mt-2">
                 <dl>
                   <div>
-                    <dt class="sr-only">Price</dt>
-                    <dd class="text-sm text-gray-500">489.000 €</dd>
+                    <dt className="sr-only">Price</dt>
+                    <dd className="text-sm text-gray-500">489.000 €</dd>
                   </div>
 
                   <div>
-                    <dt class="sr-only">Address</dt>
-                    <dd class="font-medium">
+                    <dt className="sr-only">Address</dt>
+                    <dd className="font-medium">
                       Mahmutlar Mah. D-400 highway BLV. NO:23A ALANYA/ANTALYA{" "}
                     </dd>
                   </div>
                 </dl>
 
-                <div class="mt-6 flex items-center gap-8 text-xs">
-                  <div class="sm:inline-flex sm:shrink-0 sm:items-center">
+                <div className="mt-6 flex items-center gap-8 text-xs">
+                  <div className="sm:inline-flex sm:shrink-0 sm:items-center">
                     <svg
-                      class="h-4 w-4 text-indigo-700"
+                      className="h-4 w-4 text-indigo-700"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -85,15 +87,15 @@ function Details(props) {
                       />
                     </svg>
 
-                    <div class="mt-1.5 sm:ml-3 sm:mt-0">
-                      <p class="text-gray-500">Parking</p>
-                      <p class="font-medium">2 spaces</p>
+                    <div className="mt-1.5 sm:ml-3 sm:mt-0">
+                      <p className="text-gray-500">Parking</p>
+                      <p className="font-medium">2 spaces</p>
                     </div>
                   </div>
 
-                  <div class="sm:inline-flex sm:shrink-0 sm:items-center">
+                  <div className="sm:inline-flex sm:shrink-0 sm:items-center">
                     <svg
-                      class="h-4 w-4 text-indigo-700"
+                      className="h-4 w-4 text-indigo-700"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -107,15 +109,15 @@ function Details(props) {
                       />
                     </svg>
 
-                    <div class="mt-1.5 sm:ml-3 sm:mt-0">
-                      <p class="text-gray-500">Bathroom</p>
-                      <p class="font-medium">2 rooms</p>
+                    <div className="mt-1.5 sm:ml-3 sm:mt-0">
+                      <p className="text-gray-500">Bathroom</p>
+                      <p className="font-medium">2 rooms</p>
                     </div>
                   </div>
 
-                  <div class="sm:inline-flex sm:shrink-0 sm:items-center">
+                  <div className="sm:inline-flex sm:shrink-0 sm:items-center">
                     <svg
-                      class="h-4 w-4 text-indigo-700"
+                      className="h-4 w-4 text-indigo-700"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -129,19 +131,19 @@ function Details(props) {
                       />
                     </svg>
 
-                    <div class="mt-1.5 sm:ml-3 sm:mt-0">
-                      <p class="text-gray-500">Bedroom</p>
-                      <p class="font-medium">2 rooms</p>
+                    <div className="mt-1.5 sm:ml-3 sm:mt-0">
+                      <p className="text-gray-500">Bedroom</p>
+                      <p className="font-medium">2 rooms</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <Link to="/contact">
-                <div class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
+                <div className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
                   {/*<a
                     href="contact"
-                    class="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                    className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
   >*/}
                   Get in Touch
                   {/*<a</a>*/}
@@ -154,7 +156,7 @@ function Details(props) {
 
       {/* Below: photo gallery*/}
 
-      <div class="gallery">
+      <div className="gallery">
         <img src="/img/houses/1/mutfak.jpg" alt="" />
         <img src="/img/houses/1/giris.jpg" alt="" />
         <img src="/img/houses/1/salon.jpg" alt="" />
