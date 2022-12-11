@@ -10,10 +10,11 @@ function Contact() {
     i18n.changeLanguage(language);
   };
 
+  //State to show a confirmation message
+  const [show_confirm_msg, setShowConfirmMsg] = useState(false);
   //Function sendEmail communicates with "EmailJS" server, sends e-mail to Gmail
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_2npudtj",
@@ -24,21 +25,14 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          //"show confirmation message"
+          setShowConfirmMsg(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
     e.target.reset();
-  };
-
-  //Function to show a confirmation message
-  const [show_confirm_msg, setShowConfirmMsg] = useState(false);
-  const handleConfirm = (e) => {
-    if (!show_confirm_msg) {
-      e.preventDefault();
-      setShowConfirmMsg(true);
-    }
   };
 
   return (
@@ -77,9 +71,9 @@ function Contact() {
         </div>
       </div>
       <div className=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
-        <form onSubmit={handleConfirm && sendEmail}>
+        <form onSubmit={sendEmail}>
           {/*action="/action_page.php "*/}
-          <label for="fname" className="text-white ">
+          <label htmlFor="fname" className="text-white ">
             {t("form.firstName")}
           </label>
           <input
@@ -88,7 +82,7 @@ function Contact() {
             name="firstname"
             placeholder={t("form.input1")}
           />
-          <label for="lname" className="text-white ">
+          <label htmlFor="lname" className="text-white ">
             {t("form.lastName")}
           </label>
           <input
@@ -97,7 +91,7 @@ function Contact() {
             name="lastname"
             placeholder={t("form.input2")}
           />
-          <label for="email" className="text-white ">
+          <label htmlFor="email" className="text-white ">
             {t("form.email")}
           </label>
           <input
@@ -107,7 +101,7 @@ function Contact() {
             placeholder={t("form.input4")}
           />
           {/*
-          <label for="province" className="text-white ">
+          <label htmlFor="province" className="text-white ">
             {t("form.province")}
           </label>
          
@@ -118,7 +112,7 @@ function Contact() {
             <option value="Kalkan">Kalkan</option>
           </select>
   */}
-          <label for="subject" className="text-white ">
+          <label htmlFor="subject" className="text-white ">
             {t("form.subject")}
           </label>
           <textarea
@@ -129,7 +123,6 @@ function Contact() {
           ></textarea>
           <input
             type="submit"
-            onclick={handleConfirm}
             value={t("form.submit")}
             className="bg-indigo-600 font-semibold"
           />

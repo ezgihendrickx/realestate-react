@@ -37,7 +37,7 @@ function Car() {
             OLYMPOS
           </a>
         </div>
-        <div className className="">
+        <div className="">
           <img src="/img/antalya/Side.jpg" alt="Side" />
           <a
             className="legend underline"
