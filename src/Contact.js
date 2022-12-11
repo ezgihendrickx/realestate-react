@@ -77,7 +77,8 @@ function Contact() {
         </div>
       </div>
       <div class=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
-        <form onSubmit={handleConfirm && sendEmail} action="/action_page.php ">
+        <form onSubmit={handleConfirm && sendEmail}>
+          {/*action="/action_page.php "*/}
           <label for="fname" className="text-white ">
             {t("form.firstName")}
           </label>
