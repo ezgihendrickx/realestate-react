@@ -1,6 +1,6 @@
 //Suspense comes with i18n to avoid error message when translating files
 import React, { Suspense } from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./tailwind.css";
@@ -10,14 +10,14 @@ import "./i18n";
 import reportWebVitals from "./reportWebVitals";
 import ScrollToTop from "./ScrollToTop";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <BrowserRouter>
     <Suspense fallback={<div>Loading...</div>}>
       <ScrollToTop />
       <App />
     </Suspense>
-  </BrowserRouter>,
-  document.getElementById("root")
+  </BrowserRouter>
 );
 
 //Note: The ScrollToTop component makes sure that when you navigate to a different page (using Router/Link), the browser displays the top of the page.

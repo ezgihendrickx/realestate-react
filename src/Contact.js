@@ -61,7 +61,8 @@ function Contact() {
                 <span className="couple italic">
                   {t("contact.contact")} <big>🧚🏽‍♀️</big>
                 </span>
-                <p>{t("contact.explanation2")}</p>
+                <br />
+                {t("contact.explanation2")}
               </p>
               <p className="mt-5 max-w-2xl text-xl text-gray-500 ml-2 ">
                 antalyadomhomes@inbox.ru
