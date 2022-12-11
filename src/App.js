@@ -10,7 +10,13 @@ import Main from "./Main";
 import Aboutus from "./Aboutus";
 import Contact from "./Contact";
 import Error from "./Error";
-import { Route, Switch, useParams } from "react-router-dom";
+import {
+  Route,
+  Switch,
+  useParams,
+  BrowserRouter as Router,
+  useLocation,
+} from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import "./tailwind.css";
 
@@ -19,7 +25,8 @@ function App() {
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
-  const queryParameters = new URLSearchParams(window.location.search);
+  const location = useLocation();
+  const queryParameters = new URLSearchParams(location.search);
   const type = queryParameters.get("type");
   const name = queryParameters.get("name");
 
@@ -44,11 +51,16 @@ function App() {
         <Route path="/houses">
           <Main />
         </Route>
-        <Route path="/details">
-          <Details />
-        </Route>
 
-        <Route path="/details/:id" children={<Details />}>
+        {/*<Route path="/details">
+          <Details />
+        </Route>*/}
+
+        {/*<Route path="/details/:id" children={<Details />}>
+          <Details />
+    </Route> */}
+
+        <Route path="/details/:houseId">
           <Details />
         </Route>
 
@@ -56,10 +68,9 @@ function App() {
           <Contact />
         </Route>
         <Route>
-          <error />
+          <Error />
         </Route>
       </Switch>
-
       <Footer />
     </div>
   );

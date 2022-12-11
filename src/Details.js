@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import {
   CarouselProvider,
   Slider,
@@ -9,15 +9,18 @@ import {
   ButtonNext,
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import { houses } from "./Houses";
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 /* Create function first, export later */
 /* include "props" in function so you can give input (e.g. house number), showing the same Details page with different content (house)*/
-function Details(props) {
+function Details() {
   const { t, i18n } = useTranslation();
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  const params = useParams();
+  const houseId = params.houseId;
 
   return (
     //burasi carousel
@@ -28,7 +31,7 @@ function Details(props) {
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="House"
-                src="/img/houses/1/main.jpg"
+                src={"/img/houses/" + houseId + "/main.jpg"}
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
@@ -39,7 +42,7 @@ function Details(props) {
 
             <div className="p-8 sm:p-16 lg:p-24">
               <h1 className="text-2xl font-bold sm:text-3xl">
-                Konak Twin Towers
+                {houses[houseId].name}
               </h1>
               <p className="mt-4 text-gray-600">
                 Konak Twin Towers 1 Project consists of a land area of ​​3,751
@@ -157,12 +160,12 @@ function Details(props) {
       {/* Below: photo gallery*/}
 
       <div className="gallery">
-        <img src="/img/houses/1/mutfak.jpg" alt="" />
-        <img src="/img/houses/1/giris.jpg" alt="" />
-        <img src="/img/houses/1/salon.jpg" alt="" />
-        <img src="/img/houses/1/yatakodasi.jpg" alt="" />
-        <img src="/img/houses/1/lavabo.jpg" alt="" />
-        <img src="/img/houses/1/teras.jpg" alt="" />
+        <img src="/img/houses/0/mutfak.jpg" alt="" />
+        <img src="/img/houses/0/giris.jpg" alt="" />
+        <img src="/img/houses/0/salon.jpg" alt="" />
+        <img src="/img/houses/0/yatakodasi.jpg" alt="" />
+        <img src="/img/houses/0/lavabo.jpg" alt="" />
+        <img src="/img/houses/0/teras.jpg" alt="" />
       </div>
     </section>
   );
