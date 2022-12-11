@@ -10,16 +10,19 @@ import Main from "./Main";
 import Aboutus from "./Aboutus";
 import Contact from "./Contact";
 import Error from "./Error";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useParams } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import "./tailwind.css";
 
 function App() {
   const { t, i18n } = useTranslation();
-
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
+  const queryParameters = new URLSearchParams(window.location.search);
+  const type = queryParameters.get("type");
+  const name = queryParameters.get("name");
+
   return (
     <div className="App">
       <button href="#" className="sr-only focus:not-sr-only">
@@ -32,12 +35,29 @@ function App() {
       <Navbar />
 
       <Switch>
-        <Route path="/" component={Home} exact></Route>
-        <Route path="/about" component={Aboutus} />
-        <Route path={"/houses"} component={Main} />
-        <Route path={"/details"} component={Details} />
-        <Route path={"/contact"} component={Contact} />
-        <Route component={Error} />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <Aboutus />
+        </Route>
+        <Route path="/houses">
+          <Main />
+        </Route>
+        <Route path="/details">
+          <Details />
+        </Route>
+
+        <Route path="/details/:id" children={<Details />}>
+          <Details />
+        </Route>
+
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route>
+          <error />
+        </Route>
       </Switch>
 
       <Footer />
