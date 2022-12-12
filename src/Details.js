@@ -31,7 +31,7 @@ function Details() {
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="House"
-                src={"/img/houses/" + houseId + "/main.jpg"}
+                src={"/img/houses/" + houseId + "/card.jpg"}
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
@@ -157,15 +157,19 @@ function Details() {
         </div>
       </div>
 
-      {/* Below: photo gallery*/}
+      {/* Below: photo gallery showing the number of pictures which has been specified in the "pictures" of the house object*/}
 
       <div className="gallery">
-        <img src="/img/houses/0/mutfak.jpg" alt="" />
-        <img src="/img/houses/0/giris.jpg" alt="" />
-        <img src="/img/houses/0/salon.jpg" alt="" />
-        <img src="/img/houses/0/yatakodasi.jpg" alt="" />
-        <img src="/img/houses/0/lavabo.jpg" alt="" />
-        <img src="/img/houses/0/teras.jpg" alt="" />
+        {[...Array(houses[houseId].pictures - 1)].map((e, i) => {
+          return (
+            <div className="" key={i}>
+              <img
+                src={"/img/houses/" + houses[houseId].id + "/" + i + ".jpg"}
+                alt=""
+              />
+            </div>
+          );
+        })}
       </div>
     </section>
   );

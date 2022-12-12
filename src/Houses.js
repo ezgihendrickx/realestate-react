@@ -13,6 +13,7 @@ export let houses = [
     registration: new Date("2022-12-04"),
     name: "Konak Twin Towers",
     type: houseTypes[2],
+    pictures: 7, //Total number of pictures to show (excluding card/main picture)
     priceEUR: 489000,
     priceTRY: 0,
     address: "600m to Cleopatra beach 2+1 | 140m2",
@@ -36,6 +37,7 @@ export let houses = [
     address: "700m to Cleopatra beach 2+1 | 70m2",
     priceEUR: "209.000",
     capacity: "Room: 2  Bath:1",
+    pictures: 2,
   },
   {
     id: 2,
@@ -43,5 +45,6 @@ export let houses = [
     priceEUR: "309.000",
     address: "700m to Cleopatra beach 3+1 | 138m2",
     capacity: "Room: 2  Bath:2",
+    pictures: 3,
   },
 ];
