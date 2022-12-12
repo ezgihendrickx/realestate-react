@@ -4,6 +4,7 @@
     "part1": "Yolculuguna hic vakit kaybetmeden bugun basla!"
   },
   "navigation": {
+    "home": "home",
     "nav1": "Evler",
     "nav2": "Hakkımızda",
     "nav3": "İletişim",
@@ -36,5 +37,17 @@
     "subject": "Konu",
     "input3": "İsteğinizi yazınız ..",
     "submit": "Gönder"
+  },
+
+  "details": {
+    "commonAreas": "Common Areas",
+    "parking": "Parking",
+    "parkingSpaces": "spaces",
+    "bathroom": "Bathroom",
+    "bedroom": "Bedroom",
+    "rooms": "rooms",
+    "contact": "Get in Touch",
+    "price": "Price",
+    "address": "Address"
   }
 }

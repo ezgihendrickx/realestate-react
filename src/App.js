@@ -35,10 +35,7 @@ function App() {
       <button href="#" className="sr-only focus:not-sr-only">
         Skip to content
       </button>
-      {/* <button onClick={() => changeLanguage("en")}>EN</button>
-      <button onClick={() => changeLanguage("nl")}>NL</button>
-      <Trans i18nKey="description.part1"></Trans>
-      <div>{t("description.part2")}</div> */}
+
       <Navbar />
 
       <Switch>
@@ -51,15 +48,6 @@ function App() {
         <Route path="/houses">
           <Main />
         </Route>
-
-        {/*<Route path="/details">
-          <Details />
-        </Route>*/}
-
-        {/*<Route path="/details/:id" children={<Details />}>
-          <Details />
-    </Route> */}
-
         <Route path="/details/:houseId">
           <Details />
         </Route>
@@ -71,6 +59,7 @@ function App() {
           <Error />
         </Route>
       </Switch>
+
       <Footer />
     </div>
   );

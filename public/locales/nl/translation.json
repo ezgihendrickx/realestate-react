@@ -4,6 +4,7 @@
     "part1": "Begin vandaag nog met uw avontuuur."
   },
   "navigation": {
+    "home": "home",
     "nav1": "Huizen",
     "nav2": "Over Ons",
     "nav3": "Contact",
@@ -36,5 +37,17 @@
     "subject": "Onderwerp",
     "input3": "Schrijf uw wens ..",
     "submit": "Verzenden"
+  },
+
+  "details": {
+    "commonAreas": "Common Areas",
+    "parking": "Parking",
+    "parkingSpaces": "spaces",
+    "bathroom": "Bathroom",
+    "bedroom": "Bedroom",
+    "rooms": "rooms",
+    "contact": "Get in Touch",
+    "price": "Price",
+    "address": "Address"
   }
 }

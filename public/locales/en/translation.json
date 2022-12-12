@@ -4,6 +4,7 @@
     "part1": "Start your journey today."
   },
   "navigation": {
+    "home": "home",
     "nav1": "Houses",
     "nav2": "About us",
     "nav3": "Contact",
@@ -33,6 +34,18 @@
     "submit": "Submit",
     "email": "Email",
     "input4": "Write your email"
+  },
+
+  "details": {
+    "commonAreas": "Common Areas",
+    "parking": "Parking",
+    "parkingSpaces": "spaces",
+    "bathroom": "Bathroom",
+    "bedroom": "Bedroom",
+    "rooms": "rooms",
+    "contact": "Get in Touch",
+    "price": "Price",
+    "address": "Address"
   },
 
   "houses": [{}, {}]

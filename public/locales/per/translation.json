@@ -4,6 +4,7 @@
     "part1": "امروز سفر خود را آغاز کنید."
   },
   "navigation": {
+    "home": "home",
     "nav1": "خانه ها",
     "nav2": "درباره ما",
     "nav3": " تماس با ما",
@@ -36,5 +37,17 @@
     "subject": "موضوع",
     "input3": "بنویسید ",
     "submit": "ارسال"
+  },
+
+  "details": {
+    "commonAreas": "Common Areas",
+    "parking": "Parking",
+    "parkingSpaces": "spaces",
+    "bathroom": "Bathroom",
+    "bedroom": "Bedroom",
+    "rooms": "rooms",
+    "contact": "Get in Touch",
+    "price": "Price",
+    "address": "Address"
   }
 }

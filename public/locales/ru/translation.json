@@ -4,6 +4,7 @@
     "part1": "Начните Ваше путешествие уже сегодня!"
   },
   "navigation": {
+    "home": "home",
     "nav1": "Дома",
     "nav2": "О нас",
     "nav3": "Связаться с нами",
@@ -36,5 +37,17 @@
     "subject": "Вопрос",
     "input3": "Задайте нам вопрос..",
     "submit": "отправить"
+  },
+
+  "details": {
+    "commonAreas": "Common Areas",
+    "parking": "Parking",
+    "parkingSpaces": "spaces",
+    "bathroom": "Bathroom",
+    "bedroom": "Bedroom",
+    "rooms": "rooms",
+    "contact": "Get in Touch",
+    "price": "Price",
+    "address": "Address"
   }
 }

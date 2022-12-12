@@ -81,7 +81,7 @@ function Navbar() {
                   to="/"
                   className="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
-                  Home
+                  {t("navigation.home")}
                 </Link>
                 <Link
                   to="/houses"
@@ -227,7 +227,7 @@ function Navbar() {
               document.getElementById("hamburgerMenu").classList.add("hidden")
             }
           >
-            Home
+            {t("navigation.home")}
           </Link>
           <Link
             to="/houses"

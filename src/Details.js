@@ -39,18 +39,18 @@ function Details() {
               <p className="mt-4 text-gray-600">{house.descrLong}</p>
 
               <p className="mt-4 text-gray-600">
-                Common Areas: {house.commonAreas}
+                {t("details.commonAreas")}: {house.commonAreas}
               </p>
               <div className="mt-2">
                 <dl>
                   <div>
-                    <dt className="sr-only">Price</dt>
+                    <dt className="sr-only">{t("details.price")}:</dt>
                     <dd className="text-sm text-gray-500">
                       € {house.priceEUR}
                     </dd>
                   </div>
                   <div>
-                    <dt className="sr-only">Address</dt>
+                    <dt className="sr-only">{t("details.address")}</dt>
                     <dd className="font-medium">{house.address}</dd>
                   </div>
                 </dl>
@@ -71,9 +71,9 @@ function Details() {
                       />
                     </svg>
                     <div className="mt-1.5 sm:ml-3 sm:mt-0">
-                      <p className="text-gray-500">Parking</p>
+                      <p className="text-gray-500">{t("details.parking")}</p>
                       <p className="font-medium">
-                        {house.parkingSpaces} spaces
+                        {house.parkingSpaces} {t("details.parkingSpaces")}
                       </p>
                     </div>
                   </div>
@@ -95,8 +95,10 @@ function Details() {
                     </svg>
 
                     <div className="mt-1.5 sm:ml-3 sm:mt-0">
-                      <p className="text-gray-500">Bathroom</p>
-                      <p className="font-medium">{house.bathrooms} rooms</p>
+                      <p className="text-gray-500">{t("details.bathroom")}</p>
+                      <p className="font-medium">
+                        {house.bathrooms} {t("details.rooms")}
+                      </p>
                     </div>
                   </div>
 
@@ -117,8 +119,10 @@ function Details() {
                     </svg>
 
                     <div className="mt-1.5 sm:ml-3 sm:mt-0">
-                      <p className="text-gray-500">Bedroom</p>
-                      <p className="font-medium">{house.bedrooms} rooms</p>
+                      <p className="text-gray-500">{t("details.bedroom")}</p>
+                      <p className="font-medium">
+                        {house.bedrooms} {t("details.rooms")}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -130,7 +134,7 @@ function Details() {
                     href="contact"
                     className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
   >*/}
-                  Get in Touch
+                  {t("details.contact")}
                   {/*<a</a>*/}
                 </div>
               </Link>
