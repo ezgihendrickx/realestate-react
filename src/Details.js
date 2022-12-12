@@ -14,6 +14,7 @@ function Details() {
   };
   const params = useParams();
   const houseId = params.houseId;
+  const house = houses[houseId];
 
   return (
     //burasi carousel
@@ -34,38 +35,25 @@ function Details() {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <h1 className="text-2xl font-bold sm:text-3xl">
-                {houses[houseId].name}
-              </h1>
-              <p className="mt-4 text-gray-600">
-                Konak Twin Towers 1 Project consists of a land area of ​​3,751
-                m2. It consists of 2 blocks and 174 flats in the city center of
-                Alanya. 200 mt. to Mahmutlar center, 20 mt. to the beach. is at
-                a distance. It has a position that dominates the sea and the
-                castle view.
-              </p>
+              <h1 className="text-2xl font-bold sm:text-3xl">{house.name}</h1>
+              <p className="mt-4 text-gray-600">{house.descrLong}</p>
 
               <p className="mt-4 text-gray-600">
-                Common Areas: Indoor Parking Lot, Doorman, 24 Hour Security,
-                Outdoor Swimming Pool, Indoor Swimming Pool, Fitness, Turkish
-                Bath, Steam Room, Massage Room, Sauna, Pool Bar, Children's
-                Playground, Internet, Satellite System
+                Common Areas: {house.commonAreas}
               </p>
               <div className="mt-2">
                 <dl>
                   <div>
                     <dt className="sr-only">Price</dt>
-                    <dd className="text-sm text-gray-500">489.000 €</dd>
-                  </div>
-
-                  <div>
-                    <dt className="sr-only">Address</dt>
-                    <dd className="font-medium">
-                      Mahmutlar Mah. D-400 highway BLV. NO:23A ALANYA/ANTALYA{" "}
+                    <dd className="text-sm text-gray-500">
+                      € {house.priceEUR}
                     </dd>
                   </div>
+                  <div>
+                    <dt className="sr-only">Address</dt>
+                    <dd className="font-medium">{house.address}</dd>
+                  </div>
                 </dl>
-
                 <div className="mt-6 flex items-center gap-8 text-xs">
                   <div className="sm:inline-flex sm:shrink-0 sm:items-center">
                     <svg
@@ -82,10 +70,11 @@ function Details() {
                         d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
                       />
                     </svg>
-
                     <div className="mt-1.5 sm:ml-3 sm:mt-0">
                       <p className="text-gray-500">Parking</p>
-                      <p className="font-medium">2 spaces</p>
+                      <p className="font-medium">
+                        {house.parkingSpaces} spaces
+                      </p>
                     </div>
                   </div>
 
@@ -107,7 +96,7 @@ function Details() {
 
                     <div className="mt-1.5 sm:ml-3 sm:mt-0">
                       <p className="text-gray-500">Bathroom</p>
-                      <p className="font-medium">2 rooms</p>
+                      <p className="font-medium">{house.bathrooms} rooms</p>
                     </div>
                   </div>
 
@@ -129,7 +118,7 @@ function Details() {
 
                     <div className="mt-1.5 sm:ml-3 sm:mt-0">
                       <p className="text-gray-500">Bedroom</p>
-                      <p className="font-medium">2 rooms</p>
+                      <p className="font-medium">{house.bedrooms} rooms</p>
                     </div>
                   </div>
                 </div>
@@ -153,13 +142,10 @@ function Details() {
       {/* Below: photo gallery showing the number of pictures which has been specified in the "pictures" of the house object*/}
 
       <div className="gallery">
-        {[...Array(houses[houseId].pictures - 1)].map((e, i) => {
+        {[...Array(house.pictures)].map((e, i) => {
           return (
             <div className="" key={i}>
-              <img
-                src={"/img/houses/" + houses[houseId].id + "/" + i + ".jpg"}
-                alt=""
-              />
+              <img src={"/img/houses/" + house.id + "/" + i + ".jpg"} alt="" />
             </div>
           );
         })}

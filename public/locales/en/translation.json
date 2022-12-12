@@ -10,13 +10,7 @@
     "language": "EN",
     "languagePicture": "/english.png"
   },
-  "cards": {
-    "price": "489.000 €",
-    "address": "600m to Cleopatra beach 2+1 | 140m2",
-    "capacity": "Room: 2 Bath:2",
-    "bathroom": "Bathroom: 2"
-  },
-  "houses": [{}, {}],
+
   "aboutUs": {
     "aboutUs": "ABOUT US",
     "header": "Our Reference Projects",
@@ -38,6 +32,8 @@
     "input3": "Write your wish..",
     "submit": "Submit",
     "email": "Email",
-    "input4":"Write your email"
-  }
+    "input4": "Write your email"
+  },
+
+  "houses": [{}, {}]
 }

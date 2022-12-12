@@ -20,14 +20,7 @@ function Main() {
           return (
             <div className="" key={id}>
               <Link to={"/Details/" + id + ""}>
-                <Card
-                  houseId={id}
-                  src={"/img/houses/" + id + "/card.jpg"}
-                  name={houses[id].name}
-                  price={houses[id].priceEUR}
-                  address={houses[id].address}
-                  capacity={houses[id].capacity}
-                />
+                <Card houseId={id} />
               </Link>
             </div>
           );
