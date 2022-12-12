@@ -29,7 +29,10 @@ export let houses = [
     parking: 2,
     m2: 140,
     capacity: "Room:4  Bath:2",
-    //Note: later add boolean for swimming pool, sauna, fitness etc. to filter on//
+    //Note: later add boolean for swimming pool, sauna, fitness etc. to filter on
+    //address={t("cards.address")}
+    //capacity={t("cards.capacity")}
+    // "Room: 4 &#10072; Bath:2"
   },
   {
     id: 1,
