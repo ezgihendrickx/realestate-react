@@ -27,12 +27,18 @@ function Card(props) {
         {t("houses." + house.id + ".name")}
         {/*</a>*/}
       </div>
-      <div className="box-border box-content text-base sm:text-s md:text-xl lg:text-xl  ml-10 pl-10  h-32 w-64 p-4 rounded-lg bg-white border-2 border-gray-600 ">
+      <div className="bg-blue-100 box-border box-content text-base sm:text-s md:text-xl lg:text-xl  ml-10 pl-10  h-32 w-64 p-4 rounded-lg border-2 border-gray-600 ">
         <h2>
           {t("details.price")}: {house.priceEUR} €
         </h2>
-        <h2>{t("houses." + house.id + ".descrShort")} </h2>
-        <h2>{house.capacity} </h2>
+        <h2>{t("houses." + house.id + ".descrLocation")} </h2>
+        <h2>
+          {t("details.bedroom")}: {house.bedrooms} | {t("details.bathroom")}:{" "}
+          {house.bathrooms}
+        </h2>
+        <h2>
+          {t("details.area")}: {house.m2} m²
+        </h2>
       </div>
     </div>
   );

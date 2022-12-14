@@ -24,7 +24,6 @@ export let houses = [
     bathrooms: 2,
     parkingSpaces: 2,
     m2: 140,
-    capacity: "Room:4  Bath:2", // delete this capacity!!
 
     //Note: later add boolean for swimming pool, sauna, fitness etc. to filter on
     //address={t("cards.address")}
@@ -48,7 +47,6 @@ export let houses = [
     bathrooms: 1,
     parkingSpaces: 1,
     m2: 70,
-    capacity: "Room: 2  Bath:1",
   },
   //2
   {
@@ -67,7 +65,6 @@ export let houses = [
     bathrooms: 2,
     parkingSpaces: 1,
     m2: 138,
-    capacity: "Room: 2  Bath:2",
   },
 ];
 

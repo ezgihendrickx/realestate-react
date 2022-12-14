@@ -134,6 +134,7 @@ function Details() {
                       </p>
                     </div>
                   </div>
+                  {/*Add a 4th symbol with the area (m²)*/}
                 </div>
               </div>
 

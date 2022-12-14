@@ -11,12 +11,17 @@ module.exports = {
     "src/**/*.tsx",
     "public/**/*.html",
   ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  // theme: {
+  //  extend: {
+  //    backgroundImage: (theme) => ({
+  //      "cook-together": "url('../img/cooktogether.png')",
+  //    }),
+  //  },
+  //},
+
   theme: {
-    extend: {
-      backgroundImage: (theme) => ({
-        "cook-together": "url('../img/cooktogether.png')",
-      }),
-    },
+    extend: {},
   },
   variants: {},
   plugins: [],
