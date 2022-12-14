@@ -28,7 +28,9 @@ function Card(props) {
         {/*</a>*/}
       </div>
       <div className="box-border box-content text-base sm:text-s md:text-xl lg:text-xl  ml-10 pl-10  h-32 w-64 p-4 rounded-lg bg-white border-2 border-gray-600 ">
-        <h2>{house.priceEUR} €</h2>
+        <h2>
+          {t("details.price")}: {house.priceEUR} €
+        </h2>
         <h2>{t("houses." + house.id + ".descrShort")} </h2>
         <h2>{house.capacity} </h2>
       </div>
