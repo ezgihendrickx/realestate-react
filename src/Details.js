@@ -14,7 +14,9 @@ function Details() {
   };
   const params = useParams();
   const houseId = params.houseId;
+  //takes the houseID from the URL (e.g. 0 from https://antalyadomhomes.com/Details/0)
   const house = houses[houseId];
+  //based on this id, selects the correct house from the Houses.js file
 
   return (
     //burasi carousel
@@ -25,7 +27,7 @@ function Details() {
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
                 alt="House"
-                src={"/img/houses/" + houseId + "/card.jpg"}
+                src={"/img/houses/" + houseId + "/main.jpg"}
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
@@ -35,11 +37,16 @@ function Details() {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <h1 className="text-2xl font-bold sm:text-3xl">{house.name}</h1>
-              <p className="mt-4 text-gray-600">{house.descrLong}</p>
+              <h1 className="text-2xl font-bold sm:text-3xl">
+                {t("houses." + house.id + ".name")}
+              </h1>
+              <p className="mt-4 text-gray-600">
+                {t("houses." + house.id + ".descrLong")}
+              </p>
 
               <p className="mt-4 text-gray-600">
-                {t("details.commonAreas")}: {house.commonAreas}
+                {t("details.commonAreas")}:{" "}
+                {t("houses." + house.id + ".commonAreas")}
               </p>
               <div className="mt-2">
                 <dl>
@@ -51,7 +58,9 @@ function Details() {
                   </div>
                   <div>
                     <dt className="sr-only">{t("details.address")}</dt>
-                    <dd className="font-medium">{house.address}</dd>
+                    <dd className="font-medium">
+                      {t("houses." + house.id + ".address")}
+                    </dd>
                   </div>
                 </dl>
                 <div className="mt-6 flex items-center gap-8 text-xs">

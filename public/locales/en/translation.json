@@ -48,5 +48,25 @@
     "address": "Address"
   },
 
-  "houses": [{}, {}]
+  "houses": [
+    {
+      "id": 0,
+      "name": "Konak Twin Towers",
+      "address": "Mahmutlar Mah. D-400 highway BLV. No:23A Alanya/Antalya",
+      "descrLong": "Konak Twin Towers 1 Project consists of a land area of ​​3,751m2. It consists of 2 blocks and 174 flats in the city center of Alanya. 200 mt. to Mahmutlar center, 20 mt. to the beach. is at a distance. It has a position that dominates the sea and the castle view.",
+      "descrShort": "600m to Cleopatra beach 2+1 | 140m2",
+      "commonAreas": "Indoor Parking Lot, Doorman, 24 Hour Security, Outdoor Swimming Pool, Indoor Swimming Pool, Fitness, Turkish Bath, Steam Room, Massage Room, Sauna, Pool Bar, Children's Playground, Internet, Satellite System",
+      "descrLocation": ""
+    },
+    {
+      "id": 1,
+      "name": "Alanya Center",
+      "address": ""
+    },
+    {
+      "id": 2,
+      "name": "Alanya Center",
+      "address": ""
+    }
+  ]
 }

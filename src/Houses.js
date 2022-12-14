@@ -1,17 +1,17 @@
-import React from "react";
-
 //To do later: import houses data from excel file using JS code. For now, add all info here//
 let houseTypes = ["Villa", "House", "Apartment"];
 let provinces = ["Antalya"];
 let cities = ["Antalya", "Alanya", "Manavgat", "Kemer", "Kumluca", "Kaş"];
 let districts = [""];
 let status = ["For Sale", "Sold", "Deleted", "Option"];
+
 export let houses = [
   {
     id: 0,
     status: status[0],
     registration: new Date("2022-12-04"),
     name: "Konak Twin Towers",
+    //name: i18n.t(navigation.nav1),
     type: houseTypes[2],
     pictures: 7, //Total number of pictures to show (excluding card/main picture)
     priceEUR: "489.000",
@@ -44,6 +44,8 @@ export let houses = [
     priceEUR: "209.000",
     capacity: "Room: 2  Bath:1",
     pictures: 2,
+    bedrooms: 2,
+    bathrooms: 1,
   },
   {
     id: 2,
@@ -52,5 +54,7 @@ export let houses = [
     descrShort: "700m to Cleopatra beach 3+1 | 138m2",
     capacity: "Room: 2  Bath:2",
     pictures: 3,
+    bedrooms: 2,
+    bathrooms: 2,
   },
 ];
