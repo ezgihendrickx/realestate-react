@@ -35,9 +35,9 @@ export let houses = [
     id: 1,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Alanya center", //not used, for reference (translation file is used)
+    name: "Dream Homes Alanya", //not used, for reference (translation file is used)
     type: houseTypes[2],
-    pictures: 2,
+    pictures: 5,
     priceEUR: "209.000",
     postalCode: "",
     province: provinces[0],

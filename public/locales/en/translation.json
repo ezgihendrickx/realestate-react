@@ -4,7 +4,7 @@
     "part1": "Start your journey today."
   },
   "navigation": {
-    "home": "home",
+    "home": "Home",
     "nav1": "Houses",
     "nav2": "About us",
     "nav3": "Contact",
@@ -61,11 +61,11 @@
     },
     {
       "id": 1,
-      "name": "Alanya Center",
+      "name": "Dream Homes Alanya",
       "address": "",
       "descrShort": "700m to Cleopatra beach 2+1 | 70m2",
-      "descrLong": "",
-      "commonAreas": "",
+      "descrLong": "The project of the Dream Homes Alanya complex is under construction on 1.380 m2 and consists from two block. There will be a remarkable view of the sea, mountains and city from big windows of apartments and balconies. All territory of a complex is decorated by a beautiful green lawn and decorative trees.",
+      "commonAreas": "Garden and playground. Outdoor swimming pool. Fitness. Car park. Security Personell and 24 hours video surveillance. Central satellite system. Generator. Internet. Elevator.      ",
       "descrLocation": "700m to Cleopatra beach"
     },
     {
