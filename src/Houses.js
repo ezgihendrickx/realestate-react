@@ -53,18 +53,36 @@ export let houses = [
     id: 2,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Alanya center", //not used, for reference (translation file is used)
+    name: "Dream Homes Alanya", //not used, for reference (translation file is used)
     type: houseTypes[2],
-    pictures: 3,
-    priceEUR: "309.000",
+    pictures: 5,
+    priceEUR: "290.000",
     postalCode: "",
     province: provinces[0],
     city: cities[1],
     district: districts[0],
     bedrooms: 2,
+    bathrooms: 1,
+    parkingSpaces: 1,
+    m2: 95,
+  },
+  //3
+  {
+    id: 3,
+    status: status[0],
+    registration: new Date("2022-12-04"),
+    name: "Dream Homes Alanya", //not used, for reference (translation file is used)
+    type: houseTypes[2],
+    pictures: 5,
+    priceEUR: "Contact us",
+    postalCode: "",
+    province: provinces[0],
+    city: cities[1],
+    district: districts[0],
+    bedrooms: 3,
     bathrooms: 2,
     parkingSpaces: 1,
-    m2: 138,
+    m2: 120,
   },
 ];
 

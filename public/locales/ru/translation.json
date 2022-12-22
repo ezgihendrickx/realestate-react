@@ -4,7 +4,7 @@
     "part1": "Начните Ваше путешествие уже сегодня!"
   },
   "navigation": {
-    "home": "home",
+    "home": "Домашняя страница",
     "nav1": "Дома",
     "nav2": "О нас",
     "nav3": "Связаться с нами",
@@ -37,50 +37,50 @@
     "subject": "Вопрос",
     "input3": "Задайте нам вопрос..",
     "submit": "отправить",
-    "email": "Email",
-    "input4": "Write your email"
+    "email": "Электронная почта",
+    "input4": "Напишите свой адрес электронной почты"
   },
 
   "details": {
-    "commonAreas": "Common Areas",
-    "parking": "Parking",
-    "parkingSpaces": "spaces",
-    "bathroom": "Bathroom",
-    "bedroom": "Bedroom",
-    "rooms": "rooms",
-    "contact": "Get in Touch",
-    "price": "Price",
-    "address": "Address",
-    "area": "Area"
+    "commonAreas": "Общие зоны",
+    "parking": "Парковка",
+    "parkingSpaces": "пространства",
+    "bathroom": "Ванная комната",
+    "bedroom": "Cпальня",
+    "rooms": "комнаты",
+    "contact": "Cвязаться с нами",
+    "price": "Цена",
+    "address": "Aдрес",
+    "area": "Область"
   },
 
   "houses": [
     {
       "id": 0,
-      "name": "Konak Twin Towers",
+      "name": "Конак Двойные Башни",
       "address": "Mahmutlar Mah. D-400 highway BLV. No:23A Alanya/Antalya",
       "descrShort": "600m to Cleopatra beach 2+1 | 140m2",
-      "descrLong": "Konak Twin Towers 1 Project consists of a land area of ​​3,751m2. It consists of 2 blocks and 174 flats in the city center of Alanya. 200 mt. to Mahmutlar center, 20 mt. to the beach. is at a distance. It has a position that dominates the sea and the castle view.",
-      "commonAreas": "Indoor Parking Lot, Doorman, 24 Hour Security, Outdoor Swimming Pool, Indoor Swimming Pool, Fitness, Turkish Bath, Steam Room, Massage Room, Sauna, Pool Bar, Children's Playground, Internet, Satellite System",
-      "descrLocation": "600m to Cleopatra beach"
+      "descrLong": "Проект 'Конак Двойные Башни 1' состоит из земельной площади в 3 751 м². Он состоит из 2-х блоков и 174 квартир в центре города Алания. Расположен в 200 м. от центра Махмутлара и в 20 м. от пляжа. Имеет позицию, которая доминирует над морем и видом на замок.",
+      "commonAreas": "Подземная парковка, дворецкий, охрана 24 часа, открытый бассейн, крытый бассейн, фитнес-центр, турецкая баня, парная, массажный кабинет, сауна, бар у бассейна, детская игровая площадка, интернет, спутниковая система.",
+      "descrLocation": "600 м до пляжа Клеопатры"
     },
     {
       "id": 1,
-      "name": "Alanya Center",
+      "name": "Дома Мечты Алания",
       "address": "",
       "descrShort": "700m to Cleopatra beach 2+1 | 70m2",
-      "descrLong": "",
-      "commonAreas": "",
-      "descrLocation": "700m to Cleopatra beach"
+      "descrLong": "Комплекс 'Dream Homes Alanya' является строительным проектом, который занимает площадь 1 380 м² и состоит из двух блоков. Квартиры и балконы комплекса предлагают захватывающий вид на море, горы и город благодаря их большим окнам. Вся территория комплекса красиво озеленена зеленым газоном и декоративными деревьями, что добавляет к его эстетическому очарованию.",
+      "commonAreas": "Сад и игровая площадка. Открытый бассейн. Фитнес-центр. Автостоянка. Охрана и видеонаблюдение круглосуточно. Центральная спутниковая система. Генератор. Интернет. Лифт.",
+      "descrLocation": "700 м до пляжа Клеопатры"
     },
     {
       "id": 2,
-      "name": "Alanya Center",
+      "name": "Дома Мечты Алания",
       "address": "",
       "descrShort": "700m to Cleopatra beach 3+1 | 138m2",
-      "descrLong": "",
-      "commonAreas": "",
-      "descrLocation": "700m to Cleopatra beach"
+      "descrLong": "Комплекс 'Dream Homes Alanya' является строительным проектом, который занимает площадь 1 380 м² и состоит из двух блоков. Квартиры и балконы комплекса предлагают захватывающий вид на море, горы и город благодаря их большим окнам. Вся территория комплекса красиво озеленена зеленым газоном и декоративными деревьями, что добавляет к его эстетическому очарованию.",
+      "commonAreas": "Сад и игровая площадка. Открытый бассейн. Фитнес-центр. Автостоянка. Охрана и видеонаблюдение круглосуточно. Центральная спутниковая система. Генератор. Интернет. Лифт.",
+      "descrLocation": "700 м до пляжа Клеопатры"
     }
   ]
 }

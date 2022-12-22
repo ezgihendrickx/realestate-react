@@ -62,20 +62,29 @@
     {
       "id": 1,
       "name": "Dream Homes Alanya",
-      "address": "",
+      "address": "D400, Kızlar Pınarı, 07460 Alanya/Antalya, Turkey",
       "descrShort": "700m to Cleopatra beach 2+1 | 70m2",
-      "descrLong": "The project of the Dream Homes Alanya complex is under construction on 1.380 m2 and consists from two block. There will be a remarkable view of the sea, mountains and city from big windows of apartments and balconies. All territory of a complex is decorated by a beautiful green lawn and decorative trees.",
-      "commonAreas": "Garden and playground. Outdoor swimming pool. Fitness. Car park. Security Personell and 24 hours video surveillance. Central satellite system. Generator. Internet. Elevator.      ",
+      "descrLong": "The Dream Homes Alanya complex is a construction project that spans an area of 1,380 m2 and consists of two blocks. The apartments and balconies of the complex offer breathtaking views of the sea, mountains, and city, thanks to their large windows. The entire complex is beautifully landscaped with a green lawn and decorative trees, adding to its aesthetic appeal.",
+      "commonAreas": "Garden and playground. Outdoor swimming pool. Fitness. Car park. Security Personnel and 24 hours video surveillance. Central satellite system. Generator. Internet. Elevator.      ",
       "descrLocation": "700m to Cleopatra beach"
     },
     {
       "id": 2,
-      "name": "Alanya Center",
-      "address": "",
+      "name": "Dream Homes Alanya",
+      "address": "D400, Kızlar Pınarı, 07460 Alanya/Antalya, Turkey",
       "descrShort": "700m to Cleopatra beach 3+1 | 138m2",
-      "descrLong": "",
-      "commonAreas": "",
+      "descrLong": "The Dream Homes Alanya complex is a construction project that spans an area of 1,380 m2 and consists of two blocks. The apartments and balconies of the complex offer breathtaking views of the sea, mountains, and city, thanks to their large windows. The entire complex is beautifully landscaped with a green lawn and decorative trees, adding to its aesthetic appeal.",
+      "commonAreas": "Garden and playground. Outdoor swimming pool. Fitness. Car park. Security Personnel and 24 hours video surveillance. Central satellite system. Generator. Internet. Elevator.",
       "descrLocation": "700m to Cleopatra beach"
+    },
+    {
+      "id": 3,
+      "name": "Park Tema Antalya",
+      "address": "Uncalı, 1255. Sk. No:8, 07070 Bahtılı Köyü Köyü/Konyaaltı/Antalya",
+      "descrShort": "700m to Cleopatra beach 3+1 | 138m2",
+      "descrLong": "In the most beautiful location of Konyaaltı, located on a 2.414 m2 area in the center of the city, Park Tema provides a tranquil and new life accompanied by verdant nature with 2 blocks and 41 apartments… Park Tema, presented to you with the latest approach of the completed Park Royal, Park Maya, Park Vega and Park Mira projects will be ready to be live in March 2020 and it will be waiting for you with its 1+1, 2+1, 3+1, and 4+1 duplex apartments.",
+      "commonAreas": "One vehicle parking lot space for each apartment will be provided. Entrance of the parking lot will be an automatic aluminum door. Automatic pass system will be used for the vehicle entry. Clean water, fire, pool water tanks and pumps will be in the basement. Clean water tank will be made of stainless steel. Central heating cascade system will be in the basement. Children playground designed for the kids will be equipped with a camera-controlled intercom system to be monitored from the apartment.",
+      "descrLocation": "Uncalı, 1255 sk."
     }
   ]
 }
