@@ -46,7 +46,10 @@
     "contact": "Get in Touch",
     "price": "Price",
     "address": "Address",
-    "area": "Area"
+    "area": "Area",
+    "city": "City",
+    "province": "Province",
+    "district": "District"
   },
 
   "houses": [

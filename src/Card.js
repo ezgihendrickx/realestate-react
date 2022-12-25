@@ -27,7 +27,10 @@ function Card(props) {
         {t("houses." + house.id + ".name")}
         {/*</a>*/}
       </div>
-      <div className="bg-blue-100 box-border box-content text-base sm:text-s md:text-xl lg:text-xl mx-auto h-32 w-64 p-4 rounded-lg border-2 border-gray-600 ">
+      <div className="bg-blue-100 box-border box-content text-base sm:text-m md:text-l lg:text-l mx-auto h-32 w-64 p-4 rounded-lg border-2 border-gray-600 ">
+        <h2>
+          {t("details.city")}: {house.city}
+        </h2>
         <h2>
           {t("details.price")}: {house.priceEUR} €
         </h2>

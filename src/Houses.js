@@ -77,7 +77,7 @@ export let houses = [
     priceEUR: "Contact us",
     postalCode: "",
     province: provinces[0],
-    city: cities[1],
+    city: cities[0],
     district: districts[0],
     bedrooms: 3,
     bathrooms: 2,

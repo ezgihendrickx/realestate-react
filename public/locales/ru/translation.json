@@ -51,7 +51,10 @@
     "contact": "Cвязаться с нами",
     "price": "Цена",
     "address": "Aдрес",
-    "area": "Область"
+    "area": "Область",
+    "city": "Город",
+    "province": "Провинция",
+    "district": "Район"
   },
 
   "houses": [
