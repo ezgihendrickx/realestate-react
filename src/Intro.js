@@ -19,7 +19,7 @@ function Intro() {
           </span>
         </h2>
       </div>
-      <div className=" ml-10 lg:mt-0 lg:flex-shrink-0  flex justify-center">
+      <div className="lg:mt-0 lg:flex-shrink-0  flex justify-center">
         <div className="inline-flex  rounded-md shadow">
           <Link
             to="/houses"

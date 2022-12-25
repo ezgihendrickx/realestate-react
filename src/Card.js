@@ -11,7 +11,7 @@ function Card(props) {
   };
   return (
     <div id="appcard" className="bg-gray-600">
-      <div className="">
+      <div className="mx-auto">
         <img
           className="fotos z-0"
           src={"/img/houses/" + house.id + "/card.jpg"}
@@ -21,13 +21,13 @@ function Card(props) {
         />
       </div>
 
-      <div className=" mb-5 text-white underline cursor-pointer leading-relaxed text-center text-lg hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
+      <div className=" mt-3 mb-2 text-white underline cursor-pointer leading-relaxed text-center text-lg hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out">
         {/*src line: Warning: validateDOMNesting(...): <a> cannot appear as a descendant of <a>.*/}
         {/*<a href={props.link} target="blank_">*/}
         {t("houses." + house.id + ".name")}
         {/*</a>*/}
       </div>
-      <div className="bg-blue-100 box-border box-content text-base sm:text-s md:text-xl lg:text-xl  ml-10 pl-10  h-32 w-64 p-4 rounded-lg border-2 border-gray-600 ">
+      <div className="bg-blue-100 box-border box-content text-base sm:text-s md:text-xl lg:text-xl mx-auto h-32 w-64 p-4 rounded-lg border-2 border-gray-600 ">
         <h2>
           {t("details.price")}: {house.priceEUR} €
         </h2>

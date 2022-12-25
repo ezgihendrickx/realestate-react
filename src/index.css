@@ -20,7 +20,7 @@
   user-select: none;
 }
 .fotos {
-  margin: 10px;
+  /*margin: 10px;*/
   transition: all 1s;
 }
 .fotos:hover {
@@ -75,18 +75,17 @@ input[type="submit"] {
 } */
 
 .gallery {
-	display: flex;
-	flex-wrap:  wrap;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallery img {
-	width: 600px;
-	height: 400px;
-	margin: 10px;
-	transition: all 0.5s;
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  transition: all 0.5s;
 }
 .gallery img:hover {
-	transform: scale(1.05);
+  transform: scale(1.05);
 }
-
