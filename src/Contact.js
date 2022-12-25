@@ -68,6 +68,7 @@ function Contact() {
                 antalyadomhomes@inbox.ru
               </p>
               <p className="mt-5 max-w-2xl text-xl text-gray-600 ml-2 ">
+                {/*https://dev.to/ebereplenty/add-whatsapp-chat-to-your-website-react-and-html-3a5g*/}
                 <a
                   href="https://wa.me/32491888399"
                   className="whatsapp_float "
@@ -82,7 +83,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className=" bg-gray-800 container mt-10 lg:mx-auto">
+      <div className=" bg-gray-800 container mt-10 mx-auto">
         <form onSubmit={sendEmail}>
           {/*action="/action_page.php "*/}
           <label htmlFor="fname" className="text-white ">
