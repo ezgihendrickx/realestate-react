@@ -56,7 +56,7 @@ function Contact() {
               ></img>
             </div>
             <div>
-              <p className=" mt-10 max-w-2xl text-xl text-gray-500 ml-2  ">
+              <p className=" mt-10 max-w-2xl text-xl text-gray-600 ml-2  ">
                 {/* text-left mt-12 pl-5 max-w-2xl text-xl text-gray-500 lg:mx-auto  */}
                 <span className="couple italic">
                   {t("contact.contact")} <big>🧚🏽‍♀️</big>
@@ -64,14 +64,25 @@ function Contact() {
                 <br />
                 {t("contact.explanation2")}
               </p>
-              <p className="mt-5 max-w-2xl text-xl text-gray-500 ml-2 ">
+              <p className="mt-5 max-w-2xl text-xl text-gray-600 ml-2 ">
                 antalyadomhomes@inbox.ru
+              </p>
+              <p className="mt-5 max-w-2xl text-xl text-gray-600 ml-2 ">
+                <a
+                  href="https://wa.me/32491888399"
+                  className="whatsapp_float "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-whatsapp whatsapp-icon mr-5 text-green-500"></i>
+                  +32 491 88 83 99
+                </a>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className=" bg-gray-800 container mt-10 ml-10 lg:mx-auto">
+      <div className=" bg-gray-800 container mt-10 lg:mx-auto">
         <form onSubmit={sendEmail}>
           {/*action="/action_page.php "*/}
           <label htmlFor="fname" className="text-white ">

@@ -37,7 +37,7 @@ export let houses = [
     registration: new Date("2022-12-04"),
     name: "Dream Homes Alanya", //not used, for reference (translation file is used)
     type: houseTypes[2],
-    pictures: 5,
+    pictures: 6,
     priceEUR: "209.000",
     postalCode: "",
     province: provinces[0],
@@ -55,7 +55,7 @@ export let houses = [
     registration: new Date("2022-12-04"),
     name: "Dream Homes Alanya", //not used, for reference (translation file is used)
     type: houseTypes[2],
-    pictures: 5,
+    pictures: 6,
     priceEUR: "290.000",
     postalCode: "",
     province: provinces[0],
@@ -73,7 +73,7 @@ export let houses = [
     registration: new Date("2022-12-04"),
     name: "Dream Homes Alanya", //not used, for reference (translation file is used)
     type: houseTypes[2],
-    pictures: 5,
+    pictures: 6,
     priceEUR: "Contact us",
     postalCode: "",
     province: provinces[0],

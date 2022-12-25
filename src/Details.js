@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { houses } from "./Houses";
+import Modal from "react-modal";
 
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 /* Create function first, export later */
@@ -18,17 +19,30 @@ function Details() {
   const house = houses[houseId];
   //based on this id, selects the correct house from the Houses.js file
 
+  {
+    /*
+    https://dev.to/bhuma08/react-using-modal-in-functional-components-3po2
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const setModalIsOpenToTrue = () => {
+    setModalIsOpen(true);
+  };
+  const setModalIsOpenToFalse = () => {
+    setModalIsOpen(false);
+  };
+*/
+  }
+
   return (
     //burasi carousel
     <section autoFocus>
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
-            <div className="relative h-64 sm:h-80 lg:h-full">
+            <div className="relative h-64 sm:h-80 lg:h-full lg:w-fit">
               <img
                 alt="House"
                 src={"/img/houses/" + houseId + "/main.jpg"}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-fit w-full object-cover"
               />
             </div>
           </div>
@@ -36,7 +50,7 @@ function Details() {
           <div className="relative flex items-center bg-gray-100">
             <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
-            <div className="p-8 sm:p-16 lg:p-24">
+            <div className="p-8 sm:p-16 lg:p-24 lg:pb-10">
               <h1 className="text-2xl font-bold sm:text-3xl">
                 {t("houses." + house.id + ".name")}
               </h1>
@@ -154,7 +168,7 @@ function Details() {
       </div>
 
       {/* Below: photo gallery showing the number of pictures which has been specified in the "pictures" of the house object*/}
-
+      {/* Possible improvement: add functionality to enlarge picture (modal) when clicked on it (using state)*/}
       <div className="gallery">
         {[...Array(house.pictures)].map((e, i) => {
           return (
@@ -164,6 +178,32 @@ function Details() {
           );
         })}
       </div>
+      {/*
+      <div className="gallery">
+        {[...Array(house.pictures)].map((e, i) => {
+          return (
+            <>
+              <div className="" key={i}>
+                <img
+                  src={"/img/houses/" + house.id + "/" + i + ".jpg"}
+                  alt=""
+                  onclick={setModalIsOpenToTrue}
+                />
+              </div>
+              <modal isOpen={modalIsOpen}>
+                <button oncClick={setModalIsOpenToFalse}>x</button>
+                <img
+                  src={"/img/houses/" + house.id + "/" + i + ".jpg"}
+                  alt=""
+                  width="100"
+                  height="100"
+                />
+              </modal>
+            </>
+          );
+        })}
+      </div>
+      */}
     </section>
   );
 }

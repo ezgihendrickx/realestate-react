@@ -27,7 +27,7 @@ function Aboutus() {
                 ></img>
               </div>
               <div>
-                <p className="mt-10 max-w-2xl text-xl text-gray-500 lg:ml-2 ">
+                <p className="mt-10 max-w-2xl text-xl text-gray-600 lg:ml-2 ">
                   {t("aboutUs.explanation")}
                 </p>
               </div>
@@ -47,7 +47,7 @@ function Aboutus() {
                         alt="gardenview"
                       ></img>
                     </div>
-                    <dd className="mt-2  text-base text-gray-500">
+                    <dd className="mt-2  text-base text-gray-600">
                       {/* Garden views / landscape from the building blocks */}
                     </dd>
                   </div>
@@ -74,7 +74,7 @@ function Aboutus() {
                       {/* Transfers are instant */}
                     </dt>
                     <img src="/img/aboutUs/kuk.png" alt="logo"></img>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-600">
                       Camlik Park Residence, Kuk Group
                     </dd>
                   </div>
@@ -87,7 +87,7 @@ function Aboutus() {
                       {/* Mobile notifications */}
                     </dt>
                     <img src="/img/aboutUs/indoor.png" alt="indoor"></img>
-                    <dd className="mt-2 text-base text-gray-500">
+                    <dd className="mt-2 text-base text-gray-600">
                       Indoor decoration
                     </dd>
                   </div>
@@ -112,7 +112,7 @@ function Aboutus() {
                       {/* Mobile notifications */}
                     </dt>
                     <img src="/img/aboutUs/logos1.jpg" alt="reference"></img>
-                    <dd className="mt-1 text-base text-gray-500">
+                    <dd className="mt-1 text-base text-gray-600">
                       Certificates
                     </dd>
                   </div>
