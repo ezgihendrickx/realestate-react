@@ -10,7 +10,7 @@ function Main() {
   };
 
   return (
-    <main id="noncopy" className="bg-gray-800 ">
+    <main id="noncopy" className="bg-gray-800">
       <h1 className="flex justify-center text-white text-3xl">
         {" "}
         {t("navigation.nav1")} &#127969;

@@ -55,10 +55,10 @@
   "houses": [
     {
       "id": 0,
-      "name": "Konak Twin Towers",
-      "address": "Mahmutlar Mah. D-400 highway BLV. No:23A Alanya/Antalya",
+      "name": "Konak Twin Towers 2",
+      "address": "Kizlar Pinari Mah. Spor Cad. NO : 25 A/B , 07400 Alanya/ANTALYA.",
       "descrShort": "600m to Cleopatra beach 2+1 | 140m2",
-      "descrLong": "Konak Twin Towers 1 Project consists of a land area of ​​3,751m2. It consists of 2 blocks and 174 flats in the city center of Alanya. 200 mt. to Mahmutlar center, 20 mt. to the beach. is at a distance. It has a position that dominates the sea and the castle view.",
+      "descrLong": "The Konak Twin Towers 2 Project is situated on a 2,902 sq. meter plot of land in the center of Alanya. The development consists of two blocks with a total of 115 apartments, including 1+1 and 2+1 standard units as well as 2+1, 3+1, and 4+1 duplexes. Located just 900 meters from the center of town and 600 meters from the Kleopatra Beach, this property boasts stunning views of the sea and castle. Its central location and proximity to local amenities make it a highly desirable place to live.",
       "commonAreas": "Indoor Parking Lot, Doorman, 24 Hour Security, Outdoor Swimming Pool, Indoor Swimming Pool, Fitness, Turkish Bath, Steam Room, Massage Room, Sauna, Pool Bar, Children's Playground, Internet, Satellite System",
       "descrLocation": "600m to Cleopatra beach"
     },
@@ -84,10 +84,64 @@
       "id": 3,
       "name": "Park Tema Antalya",
       "address": "Uncalı, 1255. Sk. No:8, 07070 Bahtılı Köyü Köyü/Konyaaltı/Antalya",
-      "descrShort": "700m to Cleopatra beach 3+1 | 138m2",
+      "descrShort": "Uncalı, 1255. Sk.Konyaaltı/Antalya",
       "descrLong": "In the most beautiful location of Konyaaltı, located on a 2.414 m2 area in the center of the city, Park Tema provides a tranquil and new life accompanied by verdant nature with 2 blocks and 41 apartments… Park Tema, presented to you with the latest approach of the completed Park Royal, Park Maya, Park Vega and Park Mira projects will be ready to be live in March 2020 and it will be waiting for you with its 1+1, 2+1, 3+1, and 4+1 duplex apartments.",
       "commonAreas": "One vehicle parking lot space for each apartment will be provided. Entrance of the parking lot will be an automatic aluminum door. Automatic pass system will be used for the vehicle entry. Clean water, fire, pool water tanks and pumps will be in the basement. Clean water tank will be made of stainless steel. Central heating cascade system will be in the basement. Children playground designed for the kids will be equipped with a camera-controlled intercom system to be monitored from the apartment.",
       "descrLocation": "Uncalı, 1255 sk."
+    },
+    {
+      "id": 4,
+      "name": "Park Maya",
+      "address": "Uncalı, 1285. Sk. No:4, 07070 Bahtılı Köyü Köyü/Konyaaltı/Antalya",
+      "descrShort": "Uncalı, 1285. Sk. Konyaaltı/Antalya",
+      "descrLong": "Located in the beautiful Konyaaltı area, Park Maya offers a tranquil and elite living experience surrounded by the natural beauty of the area. With 88 apartments spread across 11 blocks on a 15,110 square meter site in the center of the city, this development offers 3+1 apartments for an elite living space. Experience the best of both worlds with the convenience of city living and the peace of nature at Park Maya.",
+      "commonAreas": "Enhance your lifestyle with the luxurious amenities at Park Maya, including an indoor and outdoor swimming pool, basketball court, children's playground, fitness room, and sauna. Stay active and healthy with these on-site facilities, or relax and unwind in the comfort of your own community.",
+      "descrLocation": "Uncalı, 1285 sk."
+    },
+    {
+      "id": 5,
+      "name": "Park Mira",
+      "address": "Uncalı, 1276. Sk. No:3, 07070 Konyaaltı/Antalya",
+      "descrShort": "Uncalı, 1276. Sk. Konyaaltı/Antalya",
+      "descrLong": "Experience modern living at its finest with Park Mira, located in the beautiful Konyaaltı area of the city. This development features 1 block with 30 studio apartments, all situated on a 2,130 square meter site in the center of the city. With a focus on comfort and convenience, these studio apartments offer a perfect blend of style and functionality. Enjoy all the amenities and conveniences of city living at Park Mira.",
+      "commonAreas": "Enhance your lifestyle with the luxurious amenities at Park Mira, including an indoor and outdoor swimming pool, basketball court, children's playground, fitness room, and sauna. Stay active and healthy with these on-site facilities, or relax and unwind in the comfort of your own community.",
+      "descrLocation": "Uncalı, 1276. Sk."
+    },
+    {
+      "id": 6,
+      "name": "Royal Garden",
+      "address": "Kircami/Antalya",
+      "descrShort": "Kircami/Antalya",
+      "descrLong": "The Royal Garden project, which includes six blocks with a total of 82 apartments, is located on 13 hectares of land in Kircami. Scheduled for completion in January 2023, the development offers a range of amenities including an open and closed pool, tennis court, sauna, steam room, gym, and kids club. The apartments are equipped with underfloor heating, air conditioning in every room, a kitchen with an oven and hood, automatic blinds, a smart home system, and a generator with full capacity.",
+      "commonAreas": "The Royal Garden project offers a range of amenities and activities for families, including a Kids Club with a playroom, resting area, steam room, sauna, fitness center, and swimming pool. These common areas provide a fun and welcoming environment for children to play and socialize, as well as a place for parents to relax and unwind. Whether you're looking to exercise, relax, or spend quality time with your family, the Royal Garden project has something for everyone to enjoy.",
+      "descrLocation": "Kircami/Antalya"
+    },
+    {
+      "id": 7,
+      "name": "Park Vega",
+      "address": "Uncalı, 24. Cd. 79 A, 07070 Bahtılı Köyü Köyü/Konyaaltı/Antalya",
+      "descrShort": "Uncalı, 24. Cd. Konyaaltı/Antalya",
+      "descrLong": "PARK VEGA is a luxurious living experience located in the heart of Antalya. Set on a 3365 sq. meter area in Konyaaltı, this development boasts three blocks and 32 apartments, each with trendsetting 2+1 living areas. PARK VEGA provides the ideal combination of location and modern amenities, offering residents a comfortable and stylish home in the heart of the city.",
+      "commonAreas": "Park Vega offers a range of amenities to enhance your living experience, including an indoor and outdoor swimming pool, a basketball court, and a children's playground. There is also a fitness room and sauna available for residents to use. These amenities provide a variety of opportunities for exercise, recreation, and relaxation, making Park Vega a desirable place to call home.",
+      "descrLocation": "Konyaaltı/Antalya"
+    },
+    {
+      "id": 8,
+      "name": "Konak Twin Towers 1",
+      "address": "Mahmutlar Mah. D-400 highway BLV. NO:23A ALANYA/ANTALYA",
+      "descrShort": "Mahmutlar Mah Alanya/Antalya",
+      "descrLong": "The Konak Twin Towers 1 project is situated on a 3,751 sq. meter plot of land in the heart of Alanya. The development consists of two blocks containing a total of 174 apartments. Located just 200 meters from the center of Mahmutlar and 20 meters from the beach, this property boasts stunning views of the sea and castle. Its central location and proximity to local amenities make it a highly desirable place to live.",
+      "commonAreas": "The Konak Twin Towers 1 project is equipped with a range of amenities to enhance the living experience of its residents. These amenities include a covered parking area, a concierge, and 24-hour security. The development also has both an indoor and outdoor swimming pool, as well as a fitness center, Turkish bath, steam room, massage room, sauna, pool bar, and children's play area. Additionally, the project offers internet access and a satellite system. These amenities provide opportunities for exercise, relaxation, and entertainment, making Konak Twin Towers 1 a desirable place to call home.",
+      "descrLocation": "Mahmutlar Mah. Alanya/Antalya"
+    },
+    {
+      "id": 9,
+      "name": "Konak Twin Towers 2",
+      "address": "Kizlar Pinari Mah. Spor Cad. NO : 25 A/B , 07400 Alanya/ANTALYA.",
+      "descrShort": "Mahmutlar Mah Alanya/Antalya",
+      "descrLong": "The Konak Twin Towers 2 Project is situated on a 2,902 sq. meter plot of land in the center of Alanya. The development consists of two blocks with a total of 115 apartments, including 1+1 and 2+1 standard units as well as 2+1, 3+1, and 4+1 duplexes. Located just 900 meters from the center of town and 600 meters from the Kleopatra Beach, this property boasts stunning views of the sea and castle. Its central location and proximity to local amenities make it a highly desirable place to live.",
+      "commonAreas": "The Konak Twin Towers 2 development offers a range of amenities to enhance the living experience of its residents. These amenities include a covered parking area, a concierge, and 24-hour security. The development also has both an indoor and outdoor swimming pool, as well as a fitness center, Turkish bath, steam room, massage room, sauna, pool bar, and children's play area. Additionally, the project offers internet access and a satellite system. These amenities provide opportunities for exercise, relaxation, and entertainment, making Konak Twin Towers 2 a desirable place to call home.",
+      "descrLocation": "600m to Cleopatra beach"
     }
   ]
 }

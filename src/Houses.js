@@ -12,7 +12,7 @@ export let houses = [
     id: 0,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Konak Twin Towers", //not used, for reference (translation file is used)
+    name: "Konak Twin Towers 2", //not used, for reference (translation file is used)
     type: houseTypes[2],
     pictures: 7, //Total number of pictures to show (excluding card/main picture)
     priceEUR: "489.000",
@@ -71,7 +71,7 @@ export let houses = [
     id: 3,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Dream Homes Alanya", //not used, for reference (translation file is used)
+    name: "Park Tema Antalya", //not used, for reference (translation file is used)
     type: houseTypes[2],
     pictures: 6,
     priceEUR: "Contact us",
@@ -83,6 +83,114 @@ export let houses = [
     bathrooms: 2,
     parkingSpaces: 1,
     m2: 120,
+  },
+  //4
+  {
+    id: 4,
+    status: status[0],
+    registration: new Date("2022-12-04"),
+    name: "Park Maya", //not used, for reference (translation file is used)
+    type: houseTypes[2],
+    pictures: 8,
+    priceEUR: "Contact us",
+    postalCode: "",
+    province: provinces[0],
+    city: cities[0],
+    district: districts[0],
+    bedrooms: 3,
+    bathrooms: 2,
+    parkingSpaces: 1,
+    m2: 120,
+  },
+  //5
+  {
+    id: 5,
+    status: status[0],
+    registration: new Date("2022-12-04"),
+    name: "Park Mira", //not used, for reference (translation file is used)
+    type: houseTypes[2],
+    pictures: 8,
+    priceEUR: "Contact us",
+    postalCode: "",
+    province: provinces[0],
+    city: cities[0],
+    district: districts[0],
+    bedrooms: 1,
+    bathrooms: 1,
+    parkingSpaces: 1,
+    m2: 70,
+  },
+  //6
+  {
+    id: 6,
+    status: status[0],
+    registration: new Date("2022-12-04"),
+    name: "Royal Garden", //not used, for reference (translation file is used)
+    type: houseTypes[2],
+    pictures: 8,
+    priceEUR: "Contact us",
+    postalCode: "",
+    province: provinces[0],
+    city: cities[0],
+    district: districts[0],
+    bedrooms: 4,
+    bathrooms: 2,
+    parkingSpaces: 1,
+    m2: "",
+  },
+  //7
+  {
+    id: 7,
+    status: status[0],
+    registration: new Date("2022-12-04"),
+    name: "Park Vega", //not used, for reference (translation file is used)
+    type: houseTypes[2],
+    pictures: 8,
+    priceEUR: "Contact us",
+    postalCode: "",
+    province: provinces[0],
+    city: cities[0],
+    district: districts[0],
+    bedrooms: 2,
+    bathrooms: 1,
+    parkingSpaces: 1,
+    m2: "",
+  },
+  //8
+  {
+    id: 8,
+    status: status[0],
+    registration: new Date("2022-12-04"),
+    name: "Konak Twin Towers 1", //not used, for reference (translation file is used)
+    type: houseTypes[2],
+    pictures: 8,
+    priceEUR: "329.000",
+    postalCode: "",
+    province: provinces[0],
+    city: cities[0],
+    district: districts[0],
+    bedrooms: 2,
+    bathrooms: 1,
+    parkingSpaces: 1,
+    m2: "82",
+  },
+  //9
+  {
+    id: 9,
+    status: status[0],
+    registration: new Date("2022-12-04"),
+    name: "Konak Twin Towers 2", //not used, for reference (translation file is used)
+    type: houseTypes[2],
+    pictures: 10,
+    priceEUR: "489.000",
+    postalCode: "",
+    province: provinces[0],
+    city: cities[0],
+    district: districts[0],
+    bedrooms: 2,
+    bathrooms: 1,
+    parkingSpaces: 1,
+    m2: "140",
   },
 ];
 
