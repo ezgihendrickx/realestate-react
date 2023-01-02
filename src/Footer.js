@@ -27,7 +27,7 @@ function Footer() {
                   <big>&#xf095; +32 491 88 83 99</big>
                 </i>
               </a>
-              &copy; 2022 The Antalyadomhomes, Inc. All rights reserved.
+              &copy; 2023 The Antalyadomhomes, Inc. All rights reserved.
             </p>
           </div>
         </div>

@@ -117,6 +117,20 @@ function Aboutus() {
                     </dd>
                   </div>
                 </div>
+                <div className="flex">
+                  <div className="flex-shrink-0"></div>
+                  <div className="mr-24 foto5">
+                    <dt className="text-lg leading-6 font-medium text-gray-900">
+                      {/* Mobile notifications */}
+                    </dt>
+                    <img src="/img/aboutUs/KukApt.jpg" alt="reference"></img>
+                    <dd className="mt-2 text-base text-gray-500">
+                      Omer Kuk completed the south facade work of the Kuk
+                      apartment in 2022. The Kuk apartment is located in the
+                      Altinkum neighborhood of Konyaalti.
+                    </dd>
+                  </div>
+                </div>
               </dl>
             </div>
           </div>
