@@ -57,12 +57,12 @@
   "houses": [
     {
       "id": 0,
-      "name": "Konak Twin Towers",
-      "address": "Mahmutlar Mah. D-400 highway BLV. No:23A Alanya/Antalya",
-      "descrShort": "600m to Cleopatra beach 2+1 | 140m2",
-      "descrLong": "Konak Twin Towers 1 Project consists of a land area of ​​3,751m2. It consists of 2 blocks and 174 flats in the city center of Alanya. 200 mt. to Mahmutlar center, 20 mt. to the beach. is at a distance. It has a position that dominates the sea and the castle view.",
-      "commonAreas": "Indoor Parking Lot, Doorman, 24 Hour Security, Outdoor Swimming Pool, Indoor Swimming Pool, Fitness, Turkish Bath, Steam Room, Massage Room, Sauna, Pool Bar, Children's Playground, Internet, Satellite System",
-      "descrLocation": "600m to Cleopatra beach"
+      "name": "Lara I",
+      "address": "Barınaklar Bulvarı, Papatya sitesi (Sarıçam) B blok Daire 5 kat: 3. 07230 Muratpasa / Antalya",
+      "descrShort": "500m naar de Düden Waterval, 10m met de auto naar Lara strand, 1+1 | 70m2",
+      "descrLong": "Kom het ultieme comfort en de ultieme ontspanning ervaren op onze nieuw gerenoveerde locatie. Het ligt direct naast de Düden Park Waterval.",
+      "commonAreas": "Parkeergarage, Portier, Speeltuin, Internet, Centrale Verwarmingsketel",
+      "descrLocation": "500m naar de Düden Waterval"
     },
     {
       "id": 1,
