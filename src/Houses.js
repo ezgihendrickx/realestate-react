@@ -15,7 +15,7 @@ export let houses = [
     name: "Konak Twin Towers 2", //not used, for reference (translation file is used)
     type: houseTypes[2],
     pictures: 7, //Total number of pictures to show (excluding card/main picture)
-    priceEUR: "489.000",
+    priceEUR: "50",
     postalCode: "",
     province: provinces[0],
     city: cities[1],
