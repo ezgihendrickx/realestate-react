@@ -45,9 +45,9 @@
     "commonAreas": "Common Areas",
     "parking": "Parking",
     "parkingSpaces": "spaces",
-    "bathroom": "Bathroom",
+    "bathroom": "Badkamer",
     "bedroom": "Bedroom",
-    "rooms": "rooms",
+    "rooms": "kamers",
     "contact": "Get in Touch",
     "price": "Price",
     "address": "Address",
@@ -66,12 +66,12 @@
     },
     {
       "id": 1,
-      "name": "Alanya Center",
-      "address": "",
-      "descrShort": "700m to Cleopatra beach 2+1 | 70m2",
-      "descrLong": "",
-      "commonAreas": "",
-      "descrLocation": "700m to Cleopatra beach"
+      "name": "Lara II",
+      "address": "Barınaklar Bulvarı, Papatya sitesi (Sarıçam) B blok Daire 5 kat: 3. 07230 Muratpasa / Antalya",
+      "descrShort": "500m naar de Düden Waterval, 10m met de auto naar Lara strand, 1+1 | 70m2",
+      "descrLong": "Verscholen naast de betoverende Duden Waterval in Lara, biedt mijn appartement een serene toevluchtsoord met moderne gemakken en pittoreske uitzichten.",
+      "commonAreas": "Parkeergarage, Portier, Speeltuin, Internet, Centrale Verwarmingsketel",
+      "descrLocation": "500m naar de Düden Waterval"
     },
     {
       "id": 2,

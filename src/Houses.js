@@ -13,7 +13,7 @@ export let houses = [
     status: status[0],
     registration: new Date("2022-12-04"),
     name: "Konak Twin Towers 2", //not used, for reference (translation file is used)
-    type: houseTypes[2],
+    type: houseTypes[3],
     pictures: 7, //Total number of pictures to show (excluding card/main picture)
     priceEUR: "50/night",
     postalCode: "",
@@ -36,16 +36,16 @@ export let houses = [
     status: status[0],
     registration: new Date("2022-12-04"),
     name: "Dream Homes Alanya", //not used, for reference (translation file is used)
-    type: houseTypes[2],
-    pictures: 6,
-    priceEUR: "209.000",
+    type: houseTypes[3],
+    pictures: 7,
+    priceEUR: "45/night",
     postalCode: "",
     province: provinces[0],
     city: cities[1],
     district: districts[0],
-    bedrooms: 2,
+    bedrooms: 1,
     bathrooms: 1,
-    parkingSpaces: 1,
+    parkingSpaces: 2,
     m2: 70,
   },
   //2
