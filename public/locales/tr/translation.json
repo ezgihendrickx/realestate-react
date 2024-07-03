@@ -1,10 +1,10 @@
 {
-  "title": "Hayalinizdeki evi bulmaya hazir misiniz?",
+  "title": "Hayalinizdeki evi bulmaya hazır mısınız?",
   "description": {
-    "part1": "Yolculuguna hic vakit kaybetmeden bugun basla!"
+    "part1": "Yolculuğuna bugün başla, zaman kaybetme!"
   },
   "navigation": {
-    "home": "home",
+    "home": "Ana sayfa",
     "nav1": "Evler",
     "nav2": "Hakkımızda",
     "nav3": "İletişim",
@@ -42,16 +42,16 @@
   },
 
   "details": {
-    "commonAreas": "Common Areas",
-    "parking": "Parking",
-    "parkingSpaces": "spaces",
-    "bathroom": "Bathroom",
-    "bedroom": "Bedroom",
-    "rooms": "rooms",
-    "contact": "Get in Touch",
-    "price": "Price",
-    "address": "Address",
-    "area": "Area"
+    "commonAreas": "Site imkanlari",
+    "parking": "Park",
+    "parkingSpaces": "Araç",
+    "bathroom": "Banyo",
+    "bedroom": "Yatak Odası",
+    "rooms": "oda",
+    "contact": "Bizimle iletişime geçin.",
+    "price": "Fiyat",
+    "address": "Adres",
+    "area": "Bölge"
   },
 
   "houses": [

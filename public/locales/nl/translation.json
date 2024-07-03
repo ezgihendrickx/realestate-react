@@ -43,15 +43,15 @@
 
   "details": {
     "commonAreas": "Common Areas",
-    "parking": "Parking",
-    "parkingSpaces": "spaces",
+    "parking": "Parkeergelegenheid ",
+    "parkingSpaces": "voor 2 voertuigen",
     "bathroom": "Badkamer",
-    "bedroom": "Bedroom",
-    "rooms": "kamers",
-    "contact": "Get in Touch",
-    "price": "Price",
-    "address": "Address",
-    "area": "Area"
+    "bedroom": "Slaapkamer",
+    "rooms": "kamer",
+    "contact": "Neem contact met ons op.",
+    "price": "Prijs",
+    "address": "Adres",
+    "area": "Gebied"
   },
 
   "houses": [

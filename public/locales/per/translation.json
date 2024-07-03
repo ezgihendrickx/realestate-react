@@ -42,16 +42,16 @@
   },
 
   "details": {
-    "commonAreas": "Common Areas",
-    "parking": "Parking",
-    "parkingSpaces": "spaces",
-    "bathroom": "Bathroom",
-    "bedroom": "Bedroom",
-    "rooms": "rooms",
-    "contact": "Get in Touch",
-    "price": "Price",
-    "address": "Address",
-    "area": "Area"
+    "commonAreas": "مناطق مشترک",
+    "parking": "پارکینگ",
+    "parkingSpaces": "فضاها",
+    "bathroom": "حمام",
+    "bedroom": "اتاق خواب",
+    "rooms": "اتاق‌ها",
+    "contact": "تماس بگیرید",
+    "price": "قیمت",
+    "address": "آدرس",
+    "area": "منطقه"
   },
 
   "houses": [
