@@ -15,15 +15,15 @@ export let houses = [
     name: "Konak Twin Towers 2", //not used, for reference (translation file is used)
     type: houseTypes[2],
     pictures: 7, //Total number of pictures to show (excluding card/main picture)
-    priceEUR: "50",
+    priceEUR: "50 per night",
     postalCode: "",
     province: provinces[0],
-    city: cities[1],
+    city: cities[0],
     district: districts[0],
-    bedrooms: 2,
-    bathrooms: 2,
+    bedrooms: 1,
+    bathrooms: 1,
     parkingSpaces: 2,
-    m2: 140,
+    m2: 70,
 
     //Note: later add boolean for swimming pool, sauna, fitness etc. to filter on
     //address={t("cards.address")}
