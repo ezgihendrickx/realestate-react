@@ -1,7 +1,15 @@
 //To do later: import houses data from excel file using JS code. For now, add all info here//
 let houseTypes = ["Villa", "House", "Apartment"];
 let provinces = ["Antalya"];
-let cities = ["Antalya", "Alanya", "Manavgat", "Kemer", "Kumluca", "Kaş"];
+let cities = [
+  "Antalya",
+  "Alanya",
+  "Manavgat",
+  "Kemer",
+  "Kumluca",
+  "Kaş",
+  "Demre",
+];
 let districts = [""];
 let status = ["For Sale", "Sold", "Deleted", "Option"];
 
@@ -51,15 +59,15 @@ export let houses = [
   //2
   {
     id: 2,
-    status: status[0],
+    status: status[6],
     registration: new Date("2022-12-04"),
     name: "Dream Homes Alanya", //not used, for reference (translation file is used)
-    type: houseTypes[2],
+    type: houseTypes[3],
     pictures: 6,
-    priceEUR: "290.000",
+    priceEUR: "30/night",
     postalCode: "",
     province: provinces[0],
-    city: cities[1],
+    city: cities[6],
     district: districts[0],
     bedrooms: 2,
     bathrooms: 1,
@@ -79,10 +87,10 @@ export let houses = [
     province: provinces[0],
     city: cities[0],
     district: districts[0],
-    bedrooms: 3,
-    bathrooms: 2,
-    parkingSpaces: 1,
-    m2: 120,
+    bedrooms: 1,
+    bathrooms: 1,
+    parkingSpaces: 2,
+    m2: 40,
   },
   //4
   {
