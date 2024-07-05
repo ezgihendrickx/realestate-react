@@ -63,7 +63,7 @@ export let houses = [
     registration: new Date("2022-12-04"),
     name: "Dream Homes Alanya", //not used, for reference (translation file is used)
     type: houseTypes[3],
-    pictures: 6,
+    pictures: 7,
     priceEUR: "30/night",
     postalCode: "",
     province: provinces[0],
@@ -72,7 +72,7 @@ export let houses = [
     bedrooms: 2,
     bathrooms: 1,
     parkingSpaces: 1,
-    m2: 95,
+    m2: 35,
   },
   //3
   {
@@ -129,6 +129,8 @@ export let houses = [
     m2: 70,
   },
   //6
+  {
+    /*
   {
     id: 6,
     status: status[0],
@@ -199,6 +201,7 @@ export let houses = [
     bathrooms: 1,
     parkingSpaces: 1,
     m2: "140",
+  },*/
   },
 ];
 

@@ -73,12 +73,12 @@
     },
     {
       "id": 2,
-      "name": "Dream Homes Alanya",
-      "address": "D400, Kızlar Pınarı, 07460 Alanya/Antalya, Turkey",
-      "descrShort": "700m to Cleopatra beach 3+1 | 138m2",
-      "descrLong": "The Dream Homes Alanya complex is a construction project that spans an area of 1,380 m2 and consists of two blocks. The apartments and balconies of the complex offer breathtaking views of the sea, mountains, and city, thanks to their large windows. The entire complex is beautifully landscaped with a green lawn and decorative trees, adding to its aesthetic appeal.",
-      "commonAreas": "Garden and playground. Outdoor swimming pool. Fitness. Car park. Security Personnel and 24 hours video surveillance. Central satellite system. Generator. Internet. Elevator.",
-      "descrLocation": "700m to Cleopatra beach"
+      "name": "Demre Myra",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Myra, next to the forest, 350m to the sea, with balcony",
+      "descrLong": "This peaceful place is located just next to the forest ✔ A few steps to the sea (5min) ✔ Also 15 minutes to the beach on foot ✔",
+      "commonAreas": "washing machine",
+      "descrLocation": "350m to the sea"
     },
     {
       "id": 3,
@@ -106,7 +106,8 @@
       "descrLong": "Experience modern living at its finest with Park Mira, located in the beautiful Konyaaltı area of the city. This development features 1 block with 30 studio apartments, all situated on a 2,130 square meter site in the center of the city. With a focus on comfort and convenience, these studio apartments offer a perfect blend of style and functionality. Enjoy all the amenities and conveniences of city living at Park Mira.",
       "commonAreas": "Enhance your lifestyle with the luxurious amenities at Park Mira, including an indoor and outdoor swimming pool, basketball court, children's playground, fitness room, and sauna. Stay active and healthy with these on-site facilities, or relax and unwind in the comfort of your own community.",
       "descrLocation": "Uncalı, 1276. Sk."
-    },
+    }
+    
     {
       "id": 6,
       "name": "Royal Garden",

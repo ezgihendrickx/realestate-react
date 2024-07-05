@@ -75,12 +75,12 @@
     },
     {
       "id": 2,
-      "name": "Alanya Center",
-      "address": "",
-      "descrShort": "700m to Cleopatra beach 3+1 | 138m2",
-      "descrLong": "",
-      "commonAreas": "",
-      "descrLocation": "700m to Cleopatra beach"
+      "name": "Demre Myra",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Myra, ormanın yanında, denize 350 metre, balkonlu",
+      "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
+      "commonAreas": "çamaşır makinesi",
+      "descrLocation": "Denize 350 metre"
     }
   ]
 }
