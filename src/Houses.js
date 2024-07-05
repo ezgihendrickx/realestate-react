@@ -129,7 +129,8 @@ export let houses = [
     m2: 70,
   },
   //6
-
+  {
+    /*
   {
     id: 6,
     status: status[0],
@@ -200,6 +201,7 @@ export let houses = [
     bathrooms: 1,
     parkingSpaces: 1,
     m2: "140",
+  },*/
   },
 ];
 
