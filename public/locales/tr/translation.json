@@ -81,6 +81,15 @@
       "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
       "commonAreas": "çamaşır makinesi",
       "descrLocation": "Denize 350 metre"
+    },
+    {
+      "id": 3,
+      "name": "Demre Lycia",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Likya, ormanın hemen yanındadır, denize 350 m.",
+      "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
+      "commonAreas": "çamaşır makinesi",
+      "descrLocation": "Uncalı, 1255 sk."
     }
   ]
 }

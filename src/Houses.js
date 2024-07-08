@@ -69,28 +69,28 @@ export let houses = [
     province: provinces[0],
     city: cities[6],
     district: districts[0],
-    bedrooms: 2,
+    bedrooms: 1,
     bathrooms: 1,
-    parkingSpaces: 1,
+    parkingSpaces: 2,
     m2: 35,
   },
   //3
   {
     id: 3,
-    status: status[0],
+    status: status[6],
     registration: new Date("2022-12-04"),
     name: "Park Tema Antalya", //not used, for reference (translation file is used)
-    type: houseTypes[2],
-    pictures: 6,
-    priceEUR: "Contact us",
+    type: houseTypes[3],
+    pictures: 7,
+    priceEUR: "25/night",
     postalCode: "",
     province: provinces[0],
-    city: cities[0],
+    city: cities[6],
     district: districts[0],
     bedrooms: 1,
     bathrooms: 1,
     parkingSpaces: 2,
-    m2: 40,
+    m2: 30,
   },
   //4
   {
@@ -129,8 +129,8 @@ export let houses = [
     m2: 70,
   },
   //6
-  {
-    /*
+
+  /*
   {
     id: 6,
     status: status[0],
@@ -202,7 +202,6 @@ export let houses = [
     parkingSpaces: 1,
     m2: "140",
   },*/
-  },
 ];
 
 let testHouses = [{}, {}];

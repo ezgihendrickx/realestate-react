@@ -81,6 +81,15 @@
       "descrLong": "Deze rustige plek ligt direct naast het bos ✔ Een paar stappen naar de zee (5 minuten) ✔ Ook 15 minuten te voet naar het strand ✔",
       "commonAreas": "wasmachine",
       "descrLocation": "350 meter naar de zee"
+    },
+    {
+      "id": 3,
+      "name": "Demre Lycia",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Lycia ligt direct naast het bos, op 350 m van de zee.",
+      "descrLong": "Deze rustige plek ligt direct naast het bos ✔ Een paar stappen naar de zee (5 minuten) ✔ Ook 15 minuten te voet naar het strand ✔",
+      "commonAreas": "wasmachine",
+      "descrLocation": "350 meter naar de zee."
     }
   ]
 }
