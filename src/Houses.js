@@ -99,7 +99,7 @@ export let houses = [
     registration: new Date("2022-12-04"),
     name: "Park Maya", //not used, for reference (translation file is used)
     type: houseTypes[3],
-    pictures: 7,
+    pictures: 8,
     priceEUR: "23/night",
     postalCode: "",
     province: provinces[0],
