@@ -76,7 +76,7 @@ function Contact() {
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-whatsapp whatsapp-icon mr-5 text-green-500"></i>
-                  +32 491 88 83 99
+                  For only Europe +32 491 88 83 99
                 </a>
               </p>
             </div>

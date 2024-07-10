@@ -20,7 +20,7 @@ function Aboutus() {
             <div className="lg:flex justify-center ml-2 tracking-tight lg:text-center">
               <div className="mt-5 pl-5 pb-15">
                 <img
-                  src="/img/aboutUs/baba.png"
+                  src="/img/aboutUs/omerkuk.jpg"
                   alt="ownerofcompany"
                   width="200px"
                   height="200px"
