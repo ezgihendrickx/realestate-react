@@ -49,7 +49,7 @@ export let houses = [
     priceEUR: "45/night",
     postalCode: "",
     province: provinces[0],
-    city: cities[1],
+    city: cities[0],
     district: districts[0],
     bedrooms: 1,
     bathrooms: 1,
