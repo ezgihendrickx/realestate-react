@@ -90,6 +90,24 @@
       "descrLong": "این مکان آرام دقیقا در کنار جنگل واقع شده است ✔ چند قدم تا دریا (۵ دقیقه) ✔ همچنین ۱۵ دقیقه پیاده تا ساحل ✔",
       "commonAreas": "ماشین لباسشویی",
       "descrLocation": "۳۵۰ متر تا دریا"
+    },
+    {
+      "id": 4,
+      "name": "Demre Kekova",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "ککووا دقیقا در کنار جنگل و ۳۵۰ متر تا دریا فاصله دارد.",
+      "descrLong": "این مکان آرام دقیقا در کنار جنگل واقع شده است ✔ چند قدم تا دریا (۵ دقیقه) ✔ همچنین ۱۵ دقیقه پیاده تا ساحل ✔",
+      "commonAreas": "ماشین لباسشویی",
+      "descrLocation": "۳۵۰ متر تا دریا"
+    },
+    {
+      "id": 5,
+      "name": "Demre Andriake",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "آندریاکه دقیقا در کنار جنگل و ۳۵۰ متر تا دریا فاصله دارد.",
+      "descrLong": "این مکان آرام دقیقا در کنار جنگل واقع شده است ✔ چند قدم تا دریا (۵ دقیقه) ✔ همچنین ۱۵ دقیقه پیاده تا ساحل ✔",
+      "commonAreas": "ماشین لباسشویی",
+      "descrLocation": "۳۵۰ متر تا دریا"
     }
   ]
 }

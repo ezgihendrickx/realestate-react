@@ -90,6 +90,24 @@
       "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
       "commonAreas": "çamaşır makinesi",
       "descrLocation": "Uncalı, 1255 sk."
+    },
+    {
+      "id": 4,
+      "name": "Demre Kekova",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Kekova, ormanın hemen yanındadır, denize 350 m.",
+      "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
+      "commonAreas": "çamaşır makinesi",
+      "descrLocation": "Uncalı, 1255 sk."
+    },
+    {
+      "id": 5,
+      "name": "Demre Andriake",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Andriake, ormanın hemen yanındadır, denize 350 m.",
+      "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
+      "commonAreas": "çamaşır makinesi",
+      "descrLocation": "Uncalı, 1255 sk."
     }
   ]
 }

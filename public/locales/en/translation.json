@@ -91,21 +91,21 @@
     },
     {
       "id": 4,
-      "name": "Park Maya",
-      "address": "Uncalı, 1285. Sk. No:4, 07070 Bahtılı Köyü Köyü/Konyaaltı/Antalya",
-      "descrShort": "Uncalı, 1285. Sk. Konyaaltı/Antalya",
-      "descrLong": "Located in the beautiful Konyaaltı area, Park Maya offers a tranquil and elite living experience surrounded by the natural beauty of the area. With 88 apartments spread across 11 blocks on a 15,110 square meter site in the center of the city, this development offers 3+1 apartments for an elite living space. Experience the best of both worlds with the convenience of city living and the peace of nature at Park Maya.",
-      "commonAreas": "Enhance your lifestyle with the luxurious amenities at Park Maya, including an indoor and outdoor swimming pool, basketball court, children's playground, fitness room, and sauna. Stay active and healthy with these on-site facilities, or relax and unwind in the comfort of your own community.",
-      "descrLocation": "Uncalı, 1285 sk."
+      "name": "Demre Kekova",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Kekova is right next to the forest, 350 m to the sea.",
+      "descrLong": "This peaceful place is located just next to the forest ✔ A few steps to the sea (5min) ✔ Also 15 minutes to the beach on foot ✔",
+      "commonAreas": "washing machine",
+      "descrLocation": "350m to the sea"
     },
     {
       "id": 5,
-      "name": "Park Mira",
-      "address": "Uncalı, 1276. Sk. No:3, 07070 Konyaaltı/Antalya",
-      "descrShort": "Uncalı, 1276. Sk. Konyaaltı/Antalya",
-      "descrLong": "Experience modern living at its finest with Park Mira, located in the beautiful Konyaaltı area of the city. This development features 1 block with 30 studio apartments, all situated on a 2,130 square meter site in the center of the city. With a focus on comfort and convenience, these studio apartments offer a perfect blend of style and functionality. Enjoy all the amenities and conveniences of city living at Park Mira.",
-      "commonAreas": "Enhance your lifestyle with the luxurious amenities at Park Mira, including an indoor and outdoor swimming pool, basketball court, children's playground, fitness room, and sauna. Stay active and healthy with these on-site facilities, or relax and unwind in the comfort of your own community.",
-      "descrLocation": "Uncalı, 1276. Sk."
+      "name": "Demre Andriake",
+      "address": "Büyükkum mahallesi, Kumdagi 5. sokak apartman no:4 07570 Demre/Antalya, Turkey.",
+      "descrShort": "Andriake is right next to the forest, 350 m to the sea.",
+      "descrLong": "This peaceful place is located just next to the forest ✔ A few steps to the sea (5min) ✔ Also 15 minutes to the beach on foot ✔",
+      "commonAreas": "washing machine",
+      "descrLocation": "350m to the sea"
     },
 
     {
