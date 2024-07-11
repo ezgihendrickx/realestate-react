@@ -108,6 +108,15 @@
       "descrLong": "Deze rustige plek ligt direct naast het bos ✔ Een paar stappen naar de zee (5 minuten) ✔ Ook 15 minuten te voet naar het strand ✔",
       "commonAreas": "wasmachine",
       "descrLocation": "350 meter naar de zee."
+    },
+    {
+      "id": 6,
+      "name": "Altınkum Konyaaltı",
+      "address": "Altınkum mah. 416 sok. no 17/12 Konyaaltı/ Antalya",
+      "descrShort": "Een Unieke Verblijfsgelegenheid in het Hart van Konyaaltı!",
+      "descrLong": "Geniet van de unieke locatie in het hart van Konyaaltı, op slechts 300 meter van de zee, met alles zoals restaurants, cafés, bars, apotheken, kinderspeelplaatsen, bushaltes, ziekenhuizen en ontbijtlocaties op loopafstand.",
+      "commonAreas": "Parking, internet",
+      "descrLocation": "300m meter naar de zee."
     }
   ]
 }

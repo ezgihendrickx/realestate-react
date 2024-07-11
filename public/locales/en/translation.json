@@ -110,12 +110,12 @@
 
     {
       "id": 6,
-      "name": "Royal Garden",
-      "address": "Kircami/Antalya",
-      "descrShort": "Kircami/Antalya",
-      "descrLong": "The Royal Garden project, which includes six blocks with a total of 82 apartments, is located on 13 hectares of land in Kircami. Scheduled for completion in January 2023, the development offers a range of amenities including an open and closed pool, tennis court, sauna, steam room, gym, and kids club. The apartments are equipped with underfloor heating, air conditioning in every room, a kitchen with an oven and hood, automatic blinds, a smart home system, and a generator with full capacity.",
-      "commonAreas": "The Royal Garden project offers a range of amenities and activities for families, including a Kids Club with a playroom, resting area, steam room, sauna, fitness center, and swimming pool. These common areas provide a fun and welcoming environment for children to play and socialize, as well as a place for parents to relax and unwind. Whether you're looking to exercise, relax, or spend quality time with your family, the Royal Garden project has something for everyone to enjoy.",
-      "descrLocation": "Kircami/Antalya"
+      "name": "Altınkum Konyaaltı",
+      "address": "Altınkum mah. 416 sok. no 17/12 Konyaaltı/ Antalya",
+      "descrShort": "A Unique Accommodation Opportunity in the Heart of Konyaaltı!",
+      "descrLong": "Enjoy being within walking distance of restaurants, cafes, bars, pharmacies, children's playgrounds, bus stops, hospitals, and breakfast places from this unique location in the heart of Konyaaltı, just 300 meters from the sea.",
+      "commonAreas": "Parking, internet",
+      "descrLocation": "300m to the sea"
     },
     {
       "id": 7,

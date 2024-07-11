@@ -129,25 +129,24 @@ export let houses = [
     m2: 30,
   },
   //6
-
-  /*
   {
     id: 6,
     status: status[0],
     registration: new Date("2022-12-04"),
     name: "Royal Garden", //not used, for reference (translation file is used)
-    type: houseTypes[2],
+    type: houseTypes[3],
     pictures: 8,
-    priceEUR: "Contact us",
+    priceEUR: "50/night",
     postalCode: "",
     province: provinces[0],
     city: cities[0],
     district: districts[0],
-    bedrooms: 4,
-    bathrooms: 2,
+    bedrooms: 1,
+    bathrooms: 1,
     parkingSpaces: 1,
     m2: "",
   },
+  /*
   //7
   {
     id: 7,

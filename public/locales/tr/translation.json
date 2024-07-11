@@ -89,7 +89,7 @@
       "descrShort": "Likya, ormanın hemen yanındadır, denize 350 m.",
       "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
       "commonAreas": "çamaşır makinesi",
-      "descrLocation": "Uncalı, 1255 sk."
+      "descrLocation": "Denize 350 metre"
     },
     {
       "id": 4,
@@ -98,7 +98,7 @@
       "descrShort": "Kekova, ormanın hemen yanındadır, denize 350 m.",
       "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
       "commonAreas": "çamaşır makinesi",
-      "descrLocation": "Uncalı, 1255 sk."
+      "descrLocation": "Denize 350 metre"
     },
     {
       "id": 5,
@@ -107,7 +107,16 @@
       "descrShort": "Andriake, ormanın hemen yanındadır, denize 350 m.",
       "descrLong": "Bu huzurlu yer ormanın hemen yanında yer alıyor ✔ Denize birkaç adım mesafede (5 dakika) ✔ Ayrıca sahile 15 dakika yürüme mesafesinde ✔",
       "commonAreas": "çamaşır makinesi",
-      "descrLocation": "Uncalı, 1255 sk."
+      "descrLocation": "Denize 350 metre"
+    },
+    {
+      "id": 6,
+      "name": "Altınkum Konyaaltı",
+      "address": "Altınkum mah. 416 sok. no 17/12 Konyaaltı/ Antalya",
+      "descrShort": "Konyaaltı'nın Kalbinde Eşsiz Bir Konaklama Fırsatı!",
+      "descrLong": "Konyaaltı'nın kalbinde yer alan ve denize sadece 300 metre uzaklıkta bulunan bu eşsiz mekandan, restoranlar, kafeler, barlar, eczaneler, çocuk oyun parkları, otobüs durakları, hastaneler ve kahvaltı mekanları gibi her yere yürüme mesafesinde olmanın tadını çıkarın.",
+      "commonAreas": "Park, internet",
+      "descrLocation": "Denize 300 metre"
     }
   ]
 }
