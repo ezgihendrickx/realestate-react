@@ -111,7 +111,16 @@
     },
     {
       "id": 6,
-      "name": "Altınkum Konyaaltı",
+      "name": "Altınkum Konyaaltı I",
+      "address": "Altınkum mah. 416 sok. no 17/12 Konyaaltı/ Antalya",
+      "descrShort": "Een Unieke Verblijfsgelegenheid in het Hart van Konyaaltı!",
+      "descrLong": "Geniet van de unieke locatie in het hart van Konyaaltı, op slechts 300 meter van de zee, met alles zoals restaurants, cafés, bars, apotheken, kinderspeelplaatsen, bushaltes, ziekenhuizen en ontbijtlocaties op loopafstand.",
+      "commonAreas": "Parking, internet",
+      "descrLocation": "300m meter naar de zee."
+    },
+    {
+      "id": 7,
+      "name": "Altınkum Konyaaltı II",
       "address": "Altınkum mah. 416 sok. no 17/12 Konyaaltı/ Antalya",
       "descrShort": "Een Unieke Verblijfsgelegenheid in het Hart van Konyaaltı!",
       "descrLong": "Geniet van de unieke locatie in het hart van Konyaaltı, op slechts 300 meter van de zee, met alles zoals restaurants, cafés, bars, apotheken, kinderspeelplaatsen, bushaltes, ziekenhuizen en ontbijtlocaties op loopafstand.",

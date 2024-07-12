@@ -110,7 +110,7 @@
 
     {
       "id": 6,
-      "name": "Altınkum Konyaaltı",
+      "name": "Altınkum Konyaaltı I",
       "address": "Altınkum mah. 416 sok. no 17/12 Konyaaltı/ Antalya",
       "descrShort": "A Unique Accommodation Opportunity in the Heart of Konyaaltı!",
       "descrLong": "Enjoy being within walking distance of restaurants, cafes, bars, pharmacies, children's playgrounds, bus stops, hospitals, and breakfast places from this unique location in the heart of Konyaaltı, just 300 meters from the sea.",
@@ -119,12 +119,12 @@
     },
     {
       "id": 7,
-      "name": "Park Vega",
-      "address": "Uncalı, 24. Cd. 79 A, 07070 Bahtılı Köyü Köyü/Konyaaltı/Antalya",
-      "descrShort": "Uncalı, 24. Cd. Konyaaltı/Antalya",
-      "descrLong": "PARK VEGA is a luxurious living experience located in the heart of Antalya. Set on a 3365 sq. meter area in Konyaaltı, this development boasts three blocks and 32 apartments, each with trendsetting 2+1 living areas. PARK VEGA provides the ideal combination of location and modern amenities, offering residents a comfortable and stylish home in the heart of the city.",
-      "commonAreas": "Park Vega offers a range of amenities to enhance your living experience, including an indoor and outdoor swimming pool, a basketball court, and a children's playground. There is also a fitness room and sauna available for residents to use. These amenities provide a variety of opportunities for exercise, recreation, and relaxation, making Park Vega a desirable place to call home.",
-      "descrLocation": "Konyaaltı/Antalya"
+      "name": "Altınkum Konyaaltı II",
+      "address": "Altınkum mah. 416 sok. no 17/12 Konyaaltı/ Antalya",
+      "descrShort": "A Unique Accommodation Opportunity in the Heart of Konyaaltı!",
+      "descrLong": "Enjoy being within walking distance of restaurants, cafes, bars, pharmacies, children's playgrounds, bus stops, hospitals, and breakfast places from this unique location in the heart of Konyaaltı, just 300 meters from the sea.",
+      "commonAreas": "Parking, internet",
+      "descrLocation": "300m to the sea"
     },
     {
       "id": 8,

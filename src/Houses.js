@@ -20,7 +20,7 @@ export let houses = [
     id: 0,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Konak Twin Towers 2", //not used, for reference (translation file is used)
+    name: "Lara I", //not used, for reference (translation file is used)
     type: houseTypes[3],
     pictures: 7, //Total number of pictures to show (excluding card/main picture)
     priceEUR: "50/night",
@@ -43,7 +43,7 @@ export let houses = [
     id: 1,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Dream Homes Alanya", //not used, for reference (translation file is used)
+    name: "Lara II", //not used, for reference (translation file is used)
     type: houseTypes[3],
     pictures: 7,
     priceEUR: "45/night",
@@ -61,7 +61,7 @@ export let houses = [
     id: 2,
     status: status[6],
     registration: new Date("2022-12-04"),
-    name: "Dream Homes Alanya", //not used, for reference (translation file is used)
+    name: "Demre Myra", //not used, for reference (translation file is used)
     type: houseTypes[3],
     pictures: 7,
     priceEUR: "30/night",
@@ -79,7 +79,7 @@ export let houses = [
     id: 3,
     status: status[6],
     registration: new Date("2022-12-04"),
-    name: "Park Tema Antalya", //not used, for reference (translation file is used)
+    name: "Demre Lycia", //not used, for reference (translation file is used)
     type: houseTypes[3],
     pictures: 7,
     priceEUR: "25/night",
@@ -97,7 +97,7 @@ export let houses = [
     id: 4,
     status: status[6],
     registration: new Date("2022-12-04"),
-    name: "Park Maya", //not used, for reference (translation file is used)
+    name: "Demre Kekova", //not used, for reference (translation file is used)
     type: houseTypes[3],
     pictures: 8,
     priceEUR: "23/night",
@@ -115,7 +115,7 @@ export let houses = [
     id: 5,
     status: status[6],
     registration: new Date("2022-12-04"),
-    name: "Park Mira", //not used, for reference (translation file is used)
+    name: "Demre Andriake", //not used, for reference (translation file is used)
     type: houseTypes[3],
     pictures: 7,
     priceEUR: "23/night",
@@ -133,10 +133,10 @@ export let houses = [
     id: 6,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Royal Garden", //not used, for reference (translation file is used)
+    name: "Altinkum konyaalti I", //not used, for reference (translation file is used)
     type: houseTypes[3],
     pictures: 8,
-    priceEUR: "50/night",
+    priceEUR: "60/night",
     postalCode: "",
     province: provinces[0],
     city: cities[0],
@@ -144,28 +144,29 @@ export let houses = [
     bedrooms: 1,
     bathrooms: 1,
     parkingSpaces: 1,
-    m2: "",
+    m2: "60",
   },
-  /*
+
   //7
   {
     id: 7,
     status: status[0],
     registration: new Date("2022-12-04"),
-    name: "Park Vega", //not used, for reference (translation file is used)
-    type: houseTypes[2],
+    name: "Altinkum konyaalti II", //not used, for reference (translation file is used)
+    type: houseTypes[3],
     pictures: 8,
-    priceEUR: "Contact us",
+    priceEUR: "60/night",
     postalCode: "",
     province: provinces[0],
     city: cities[0],
     district: districts[0],
-    bedrooms: 2,
+    bedrooms: 1,
     bathrooms: 1,
     parkingSpaces: 1,
-    m2: "",
+    m2: "60",
   },
   //8
+  /*
   {
     id: 8,
     status: status[0],
