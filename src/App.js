@@ -10,13 +10,7 @@ import Main from "./Main";
 import Aboutus from "./Aboutus";
 import Contact from "./Contact";
 import Error from "./Error";
-import {
-  Route,
-  Switch,
-  useParams,
-  BrowserRouter as Router,
-  useLocation,
-} from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import "./tailwind.css";
 

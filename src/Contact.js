@@ -125,7 +125,8 @@ function Contact() {
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-whatsapp whatsapp-icon mr-5 text-green-500"></i>
-                  For only Russia Наталья Иванова +905528943740
+                  For only Russia, Ukraine Kazakhstan Наталья Иванова
+                  +905528943740
                 </a>
               </p>
             </div>
@@ -158,8 +159,9 @@ function Contact() {
                   {t("contact.contact")} <big>🧚🏽‍♀️</big>
                 </span>
                 <br />
-                Инженер-землеустроитель по образованию. 9 лет работала в ДЗК, и
-                2 года в аграрной фирме.
+                محمد اکبری فارغ التحصیل در رشته مهندسی مکانیک از دانشگاه تکنیک
+                یلدیز _استانبول ترکیه ۱۹۸۸ نماینده رسمی در شرکت Aom Homes
+                آنتالیا _ ترکیه
               </p>
               <p className="mt-5 max-w-2xl text-xl text-gray-600 ml-2 ">
                 antalyadomhomes@inbox.ru
@@ -173,7 +175,7 @@ function Contact() {
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-whatsapp whatsapp-icon mr-5 text-green-500"></i>
-                  For only Russia Наталья Иванова +905528943740
+                  For only Iran: تلفن تماس +989123790225
                 </a>
               </p>
             </div>
