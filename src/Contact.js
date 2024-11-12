@@ -76,7 +76,8 @@ function Contact() {
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-whatsapp whatsapp-icon mr-5 text-green-500"></i>
-                  For only Europe +32 491 88 83 99
+                  For only Europe +32 491 88 83 99 Наталья Иванова +905528943740
+                  محمد اکبری +989123790225
                 </a>
               </p>
             </div>
