@@ -84,6 +84,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <br></br>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="ml-2 text-base text-indigo-600 font-semibold tracking-wide uppercase ">
@@ -97,6 +98,54 @@ function Contact() {
             <div className="mt-5 pl-5 ">
               <img
                 src="/img/aboutUs/Nathalia.jpg"
+                alt="couple"
+                width="200px"
+                height="200px"
+              ></img>
+            </div>
+            <div>
+              <p className=" mt-10 max-w-2xl text-xl text-gray-600 ml-2  ">
+                {/* text-left mt-12 pl-5 max-w-2xl text-xl text-gray-500 lg:mx-auto  */}
+                <span className="couple italic">
+                  {t("contact.contact")} <big>🧚🏽‍♀️</big>
+                </span>
+                <br />
+                Инженер-землеустроитель по образованию. 9 лет работала в ДЗК, и
+                2 года в аграрной фирме.
+              </p>
+              <p className="mt-5 max-w-2xl text-xl text-gray-600 ml-2 ">
+                antalyadomhomes@inbox.ru
+              </p>
+              <p className="mt-5 max-w-2xl text-xl text-gray-600 ml-2 ">
+                {/*https://dev.to/ebereplenty/add-whatsapp-chat-to-your-website-react-and-html-3a5g*/}
+                <a
+                  href="https://wa.me/32491888399"
+                  className="whatsapp_float "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-whatsapp whatsapp-icon mr-5 text-green-500"></i>
+                  For only Russia Наталья Иванова +905528943740
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="lg:text-center">
+          <h2 className="ml-2 text-base text-indigo-600 font-semibold tracking-wide uppercase ">
+            {t("contact.getintouch")}
+          </h2>
+          <p className="ml-2 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            {t("contact.header2")}
+          </p>
+
+          <div className=" tracking-tight lg:flex justify-center ">
+            <div className="mt-5 pl-5 ">
+              <img
+                src="/img/aboutUs/akbari.jpg"
                 alt="couple"
                 width="200px"
                 height="200px"
